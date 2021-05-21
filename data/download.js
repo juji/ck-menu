@@ -4,6 +4,8 @@ const path = require('path')
 const download = require('download')
 const data = require('./compiled.json')
 
+const IMAGEDIR = path.resolve(__dirname, '../public')
+
 const check = async (filePath) => {
 
   try{
@@ -45,7 +47,7 @@ const start = async () => {
     ]),[])
     .map(v => ({
       url: v.imageUrl,
-      filePath: v.imagePath ? path.resolve(__dirname,'../public',v.imagePath.replace(/^\//,'')) : null
+      filePath: v.originPath ? path.resolve(IMAGEDIR,v.originPath.replace(/^\//,'')) : null
     })).filter(v => v.url)
 
   await Promise.all(images.map(v => {

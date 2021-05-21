@@ -29,28 +29,29 @@ function MenuItem({ item }){
   const zoomOpen = () => item.imageUrl && setOpenZoom(true)
   const zoomClose = () => setOpenZoom(false)
 
-  const [ image, price, food ] = useMemo(() => {
+  const [ thumb, big, price, food ] = useMemo(() => {
     return [
-      item.imageUrl || '/ChefsKingdom-placeholder.jpeg',
+      item.thumbPath || '/ChefsKingdom-placeholder.jpeg',
+      item.bigPath || '/ChefsKingdom-placeholder.jpeg',
       numeral(item.price||0).format('$ 0,0'),
       capitalCase(item.food)
     ]
   },[ item ])
 
   const afterLoad = (a,b,c,d) => {
-    if(!item.imageUrl) return;
+    if(!thumb) return;
 
     // load image width and height
     const img = new Image()
     img.onload = () => {
       setImageProps({
-        src: item.imageUrl,
+        src: big,
         title: `${food} | ${price}`,
         w: img.width,
         h: img.height
       })
     }
-    img.src = item.imageUrl
+    img.src = big
   }
 
   return <>
@@ -60,7 +61,7 @@ function MenuItem({ item }){
 
           <LazyLoadImage
             afterLoad={afterLoad}
-            src={image}
+            src={thumb}
             alt={food}
             effect="opacity"
           />

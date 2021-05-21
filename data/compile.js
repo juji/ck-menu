@@ -60,9 +60,17 @@ const read = async ({ name, file, icon }) => {
         if(!d.menu[category])
           d.menu[category] = []
 
-        const imagePath = '/images/' + slugify(
+        const originPath = originalImage ? '/images/ori/' + slugify(
           `${name}-${category}-${food}`
-        ) + '.jpg'
+        ) + '.jpg' : null
+
+        const thumbPath = originalImage ? '/images/thumb/' + slugify(
+          `${name}-${category}-${food}`
+        ) + '.webp' : null
+
+        const bigPath = originalImage ? '/images/big/' + slugify(
+          `${name}-${category}-${food}`
+        ) + '.webp' : null
 
 
         d.menu[category].push({
@@ -71,7 +79,9 @@ const read = async ({ name, file, icon }) => {
           price,
           originalImage,
           imageUrl,
-          imagePath
+          originPath,
+          thumbPath,
+          bigPath
         })
 
       })

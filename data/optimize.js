@@ -41,7 +41,7 @@ const start = async () => {
       ...b,
     ]),[])
     .map(v => ({
-      originPath: v.originPath ? path.resolve(IMAGEDIR,v.originPath.replace(/^\//,'')) : null,
+      originPath: v.originPath ? path.resolve(__dirname,v.originPath) : null,
       thumbPath: v.thumbPath ? path.resolve(IMAGEDIR,v.thumbPath.replace(/^\//,'')) : null,
       bigPath: v.bigPath ? path.resolve(IMAGEDIR,v.bigPath.replace(/^\//,'')) : null,
     })).filter(v => v.originPath)

@@ -47,7 +47,7 @@ const start = async () => {
     ]),[])
     .map(v => ({
       url: v.imageUrl,
-      filePath: v.originPath ? path.resolve(IMAGEDIR,v.originPath.replace(/^\//,'')) : null
+      filePath: v.originPath ? path.resolve(__dirname,v.originPath) : null
     })).filter(v => v.url)
 
   await Promise.all(images.map(v => {

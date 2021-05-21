@@ -60,7 +60,7 @@ const read = async ({ name, file, icon }) => {
         if(!d.menu[category])
           d.menu[category] = []
 
-        const originPath = originalImage ? '/images/ori/' + slugify(
+        const originPath = originalImage ? 'images/' + slugify(
           `${name}-${category}-${food}`
         ) + '.jpg' : null
 

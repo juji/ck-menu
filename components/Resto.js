@@ -76,6 +76,10 @@ function MenuItem({ item }){
     { imageProps ? <PhotoSwipe
       isOpen={openZoom}
       items={[ imageProps ]}
+      options={{
+        fullscreenEl: false,
+        shareEl: false
+      }}
       onClose={zoomClose}
     /> : null }
   </>

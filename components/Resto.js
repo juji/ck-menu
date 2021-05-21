@@ -103,7 +103,10 @@ export default function Resto({ data }){
   // console.log(data)
 
   return <div id={`r_${data.id}`} className="resto">
-    <h2>{data.name}</h2>
+    <h2>
+      <img alt={data.name} src={data.icon} />
+      <span>{data.name}</span>
+    </h2>
 
     { cats.map(category => <MenuCategory
       key={`${data.name}-${category}`}

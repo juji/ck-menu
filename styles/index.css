@@ -54,8 +54,34 @@ main .resto{
 }
 
 main .resto h2{
-  padding: 0 21px;
-  margin-top: 34px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 0px 21px;
+  background: #ffffff;
+  z-index: 1;
+  margin: 0;
+  border-bottom: 1px solid #eaeaea;
+  margin-top: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .resto:first-child h2{
+  margin-top: 0px;
+}
+
+
+main .resto h2 img{
+  height: 89px;
+  width: auto;
+}
+
+main .resto h2 span{
+  font-weight: normal;
+  font-size: 18px;
 }
 
 main .resto .category{
@@ -159,7 +185,7 @@ footer .copyright{
   }
 
   main .resto h2{
-    padding: 0 55px;
+    padding: 0px 55px;
   }
 
   main .resto .category h3{

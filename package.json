@@ -9,7 +9,8 @@
     "start": "next start",
     "cname": "touch out/CNAME && echo 'chefskingdom.yrkj.org' > out/CNAME",
     "nojekyll": "touch out/.nojekyll && echo '1' > out/.nojekyll",
-    "live": "yarn export && yarn cname && yarn nojekyll && gh-pages -d out -b gh-pages"
+    "dsStore": "rm out/.DS_Store",
+    "live": "yarn export && yarn dsStore; yarn cname && yarn nojekyll && gh-pages -t -d out -b gh-pages"
   },
   "dependencies": {
     "case-anything": "^1.1.3",

@@ -1,0 +1,131 @@
+
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#__next{
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: #f5f5f5;
+}
+
+#container{
+
+  background: #ffffff;
+  min-height: 100%;
+  width: 100%;
+  max-width: 610px;
+  margin: 0 auto;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+
+}
+
+header{
+  padding-top: calc(56.25% - 3px);
+  position:relative;
+}
+
+header img{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center -3px;
+}
+
+main{
+
+}
+
+main .resto{
+
+}
+
+main .resto h2{
+  padding: 0 55px;
+  margin-top: 34px;
+}
+
+main .resto .category{
+
+
+
+}
+
+main .resto .category h3{
+  padding: 0 55px;
+  margin: 0px;
+  margin-top: 34px;
+  margin-bottom: 21px;
+}
+
+main .resto .category .menu-item{
+
+  cursor: pointer;
+  padding: 21px 55px;
+  display: flex;
+
+}
+
+main .resto .category .menu-item:active{
+  background: #f5f5f5;
+}
+
+main .resto .category .menu-item .item-image{
+  width: 160px;
+  flex: 0 0 auto;
+}
+
+main .resto .category .menu-item .item-image div{
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+}
+
+main .resto .category .menu-item .item-image div span{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+main .resto .category .menu-item .item-image div span img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+main .resto .category .menu-item .item-desc{
+  flex: 1 1 auto;
+  padding-left: 21px;
+}
+
+main .resto .category .menu-item .item-desc p{
+  margin: 0;
+}
+
+main .resto .category .menu-item p.item-name{
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+main .resto .category .menu-item p.item-price{
+
+}

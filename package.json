@@ -1,12 +1,14 @@
 {
   "name": "chefskingdom-menu",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "export": "next build && next export",
     "start": "next start",
-    "publish": "yarn export && gh-pages -d out -b gh-pages"
+    "cname": "touch out/CNAME && echo 'chefskingdom.yrkj.org' > out/CNAME",
+    "live": "yarn export && yarn cname && gh-pages -d out -b gh-pages"
   },
   "dependencies": {
     "case-anything": "^1.1.3",
@@ -22,6 +24,6 @@
   },
   "devDependencies": {
     "download": "^8.0.0",
-    "gh-pages-cli": "^0.2.0"
+    "gh-pages": "^3.1.0"
   }
 }

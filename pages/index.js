@@ -14,7 +14,12 @@ export default function Home() {
       <main>
         {data.map(resto => <Resto key={resto.id} data={resto} />)}
       </main>
-      <footer></footer>
+      <footer>
+        <h4>Chefs Kingdom</h4>
+        <p>Jl. Raya Pagedangan No.8, Pagedangan, Kec. Pagedangan, Tangerang, Banten 15339</p>
+        <hr />
+        <p className="copyright">Copyright © 2021 Chefs Kingdom. All Rights Reserved</p>
+      </footer>
 
     </div>
   )

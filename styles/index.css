@@ -46,7 +46,7 @@ header img{
 }
 
 main{
-
+  padding-bottom: 34px;
 }
 
 main .resto{
@@ -54,18 +54,16 @@ main .resto{
 }
 
 main .resto h2{
-  padding: 0 55px;
+  padding: 0 21px;
   margin-top: 34px;
 }
 
 main .resto .category{
 
-
-
 }
 
 main .resto .category h3{
-  padding: 0 55px;
+  padding: 0 21px;
   margin: 0px;
   margin-top: 34px;
   margin-bottom: 21px;
@@ -74,7 +72,7 @@ main .resto .category h3{
 main .resto .category .menu-item{
 
   cursor: pointer;
-  padding: 21px 55px;
+  padding: 12px 21px;
   display: flex;
 
 }
@@ -84,7 +82,7 @@ main .resto .category .menu-item:active{
 }
 
 main .resto .category .menu-item .item-image{
-  width: 160px;
+  width: 120px;
   flex: 0 0 auto;
 }
 
@@ -122,10 +120,62 @@ main .resto .category .menu-item .item-desc p{
 }
 
 main .resto .category .menu-item p.item-name{
-  font-size: 21px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 
 main .resto .category .menu-item p.item-price{
+  font-size: 14px;
+}
+
+/* MEDIA QUERY */
+
+footer{
+  background-color: #d20000;
+  border-top: 1px solid #eaeaea;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 34px;
+}
+
+footer h4{
+  font-size: 16px;
+}
+
+footer hr{
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  margin: 21px 0;
+}
+
+footer .copyright{
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+
+  main .resto .category .menu-item .item-image{
+    width: 160px;
+  }
+
+  main .resto h2{
+    padding: 0 55px;
+  }
+
+  main .resto .category h3{
+    padding: 0 55px;
+  }
+
+  main .resto .category .menu-item{
+    padding: 21px 55px;
+  }
+
+  main .resto .category .menu-item p.item-name{
+    font-size: 21px;
+  }
+
+  main .resto .category .menu-item p.item-price{
+    font-size: 18px;
+  }
 
 }

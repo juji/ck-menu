@@ -44,10 +44,10 @@ function MyApp({ Component, pageProps }) {
         site_name: 'Chefs Kingdom Menu',
         description: 'Chefs Kingdom, Jakarta - Browse around for good food, pick what you like.',
         images: [{
-          url: `https://chefskingdom.yrkj.org/chefskingdom.jpg`,
+          url: `https://chefskingdom.yrkj.org/ChefsKingdom-logo.jpg`,
           width: 512,
           height: 512,
-          alt: 'ArcherReady: Life as an archer',
+          alt: 'Chefs Kingdom',
         }]
       }}
     />

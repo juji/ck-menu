@@ -5,6 +5,8 @@ const download = require('download');
 const slugify = require('url-slug')
 const imageDir = path.resolve(__dirname,'../public/images')
 
+const Readline = require('./Readline')
+
 const csvOptions = {
   objectMode: true,
   delimiter: '\t',
@@ -14,9 +16,9 @@ const csvOptions = {
 const data = [
 
   {
-    name: "Torishimai",
-    file: 'torishimai',
-    icon: '/icons/torishimai.svg'
+    name: "Bumbu Bambu",
+    file: 'bumbubambu',
+    icon: '/icons/bumbubambu.svg'
   },
 
   {
@@ -26,10 +28,41 @@ const data = [
   },
 
   {
-    name: "Bumbu Bambu",
-    file: 'bumbubambu',
-    icon: '/icons/bumbubambu.svg'
-  }
+    name: "Torishimai",
+    file: 'torishimai',
+    icon: '/icons/torishimai.svg'
+  },
+
+  {
+    name: "Marvelous",
+    file: 'marvelous',
+    icon: '/icons/marvelous.svg'
+  },
+
+  {
+    name: "Om Nom Nom",
+    file: 'omnomnom',
+    icon: '/icons/omnomnom.svg'
+  },
+
+  {
+    name: "Al-Meeraj",
+    file: 'almeeraj',
+    icon: '/icons/almeeray.svg'
+  },
+
+  {
+    name: "Ta Cie",
+    file: 'tacie',
+    icon: '/icons/tacie.svg'
+  },
+
+  {
+    name: "Under 3 Cafe",
+    file: 'under3',
+    icon: '/icons/underthe3.svg'
+  },
+
 
 ]
 
@@ -39,50 +72,21 @@ const read = async ({ name, file, icon }) => {
   const d = {
     id: file,
     name, icon,
-    menu: {}
+    menu: {},
+    categories: []
   }
+
+  const reader = new Readline(d)
 
   await new Promise((r,j) => {
 
     console.log(`Reading ${name}`)
-    fs.createReadStream(path.resolve(__dirname,file))
+    fs.createReadStream(path.resolve(__dirname,file+'.tsv'))
       .pipe(parse( csvOptions ))
-      .on('data', data => {
+      .on('data', dat => {
 
-        console.log(data)
-
-        const category = (data[0]||'undefined').trim()
-        const food = (data[1]||'').trim()
-        const price = (data[2]||'0').trim().replace(/[^0-9]/g,'') * 1
-        const originalImage = (data[3]||'').trim()
-        const imageUrl = (data[3]||'').trim().replace(/\/file\/d\//,'/uc?id=').replace(/\/view\?.+/,'')
-
-        if(!d.menu[category])
-          d.menu[category] = []
-
-        const originPath = originalImage ? 'images/' + slugify(
-          `${name}-${category}-${food}`
-        ) + '.jpg' : null
-
-        const thumbPath = originalImage ? '/images/thumb/' + slugify(
-          `${name}-${category}-${food}`
-        ) + '.webp' : null
-
-        const bigPath = originalImage ? '/images/big/' + slugify(
-          `${name}-${category}-${food}`
-        ) + '.webp' : null
-
-
-        d.menu[category].push({
-          category,
-          food,
-          price,
-          originalImage,
-          imageUrl,
-          originPath,
-          thumbPath,
-          bigPath
-        })
+        // console.log(dat)
+        reader.parse(dat)
 
       })
       .on('error',j)

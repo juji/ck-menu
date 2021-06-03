@@ -1,665 +1,4248 @@
 [
   {
-    "id": "torishimai",
-    "name": "Torishimai",
-    "icon": "/icons/torishimai.svg",
+    "id": "bumbubambu",
+    "name": "Bumbu Bambu",
+    "icon": "/icons/bumbubambu.svg",
     "menu": {
-      "CHICKEN": [
+      "Sup & Soto": [
         {
-          "category": "CHICKEN",
-          "food": "Chicken Katsu Set",
-          "price": 42000,
-          "originalImage": "https://drive.google.com/file/d/1cMDigg6BUMh182EqFeOW5I0CrGGZKUdN/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1cMDigg6BUMh182EqFeOW5I0CrGGZKUdN",
-          "originPath": "/images/ori/torishimai-chicken-chicken-katsu-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-chicken-chicken-katsu-set.webp",
-          "bigPath": "/images/big/torishimai-chicken-chicken-katsu-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Soto Ayam Kampung Spesial",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1WuuUTQ-hPe8UQ-3wQ8EO8UKaeWxSvwHz/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1WuuUTQ-hPe8UQ-3wQ8EO8UKaeWxSvwHz",
+          "originPath": "images/bumbu-bambu-sup-soto-soto-ayam-kampung-spesial.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-sup-soto-soto-ayam-kampung-spesial.webp",
+          "bigPath": "/images/big/bumbu-bambu-sup-soto-soto-ayam-kampung-spesial.webp"
         },
         {
-          "category": "CHICKEN",
-          "food": "Chicken Karage Set",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1dHfoGk0j4rXZhkpRUGAQOudwm9ViqJEf/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dHfoGk0j4rXZhkpRUGAQOudwm9ViqJEf",
-          "originPath": "/images/ori/torishimai-chicken-chicken-karage-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-chicken-chicken-karage-set.webp",
-          "bigPath": "/images/big/torishimai-chicken-chicken-karage-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Soto Sulung Khas Surabaya",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1XzeiE1K-DotOEnujO82Zz3YSbbp1MWav/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1XzeiE1K-DotOEnujO82Zz3YSbbp1MWav",
+          "originPath": "images/bumbu-bambu-sup-soto-soto-sulung-khas-surabaya.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-sup-soto-soto-sulung-khas-surabaya.webp",
+          "bigPath": "/images/big/bumbu-bambu-sup-soto-soto-sulung-khas-surabaya.webp"
         },
         {
-          "category": "CHICKEN",
-          "food": "Chicken Wings Ginger Glazed Set",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1dKpEtRDea2NHVoNzG8oK38kRNTWuopnj/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dKpEtRDea2NHVoNzG8oK38kRNTWuopnj",
-          "originPath": "/images/ori/torishimai-chicken-chicken-wings-ginger-glazed-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-chicken-chicken-wings-ginger-glazed-set.webp",
-          "bigPath": "/images/big/torishimai-chicken-chicken-wings-ginger-glazed-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Soto Betawi",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Y4SmgvZeAZzg285OWpecKeg5DLo26blh/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1Y4SmgvZeAZzg285OWpecKeg5DLo26blh",
+          "originPath": "images/bumbu-bambu-sup-soto-soto-betawi.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-sup-soto-soto-betawi.webp",
+          "bigPath": "/images/big/bumbu-bambu-sup-soto-soto-betawi.webp"
         },
         {
-          "category": "CHICKEN",
-          "food": "Yakitori",
-          "price": 30000,
-          "originalImage": "https://drive.google.com/file/d/1iOH0oVx_4tO6K6N4Ksdije0JqG6KG4J7/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1iOH0oVx_4tO6K6N4Ksdije0JqG6KG4J7",
-          "originPath": "/images/ori/torishimai-chicken-yakitori.jpg",
-          "thumbPath": "/images/thumb/torishimai-chicken-yakitori.webp",
-          "bigPath": "/images/big/torishimai-chicken-yakitori.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Rawon Surabaya Komplit",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1XvMgQivcBoveBo3qbhmdWEsk_387x0x7/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1XvMgQivcBoveBo3qbhmdWEsk_387x0x7",
+          "originPath": "images/bumbu-bambu-sup-soto-rawon-surabaya-komplit.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-sup-soto-rawon-surabaya-komplit.webp",
+          "bigPath": "/images/big/bumbu-bambu-sup-soto-rawon-surabaya-komplit.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Paket Sup Buntut Rebus",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Paket Sup Buntut Goreng/Bakar",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Sup & Soto",
+          "properties": "",
+          "name": "Sup Kaki Kambing",
+          "description": "",
+          "price": {
+            "value": 47500,
+            "formatted": "IDR 47.500",
+            "string": "IDR 47.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Hi88ZM_P73gmAyZJoZMeyIssQ2JUOI3p/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1Hi88ZM_P73gmAyZJoZMeyIssQ2JUOI3p",
+          "originPath": "images/bumbu-bambu-sup-soto-sup-kaki-kambing.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-sup-soto-sup-kaki-kambing.webp",
+          "bigPath": "/images/big/bumbu-bambu-sup-soto-sup-kaki-kambing.webp"
         }
       ],
-      "BEEF": [
+      "Nasi Goreng": [
         {
-          "category": "BEEF",
-          "food": "Beef Teriyaki Set Menu",
-          "price": 43000,
-          "originalImage": "https://drive.google.com/file/d/1csNipjlBaeljUI_p6vTwUJ8uHgnwSqw_/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1csNipjlBaeljUI_p6vTwUJ8uHgnwSqw_",
-          "originPath": "/images/ori/torishimai-beef-beef-teriyaki-set-menu.jpg",
-          "thumbPath": "/images/thumb/torishimai-beef-beef-teriyaki-set-menu.webp",
-          "bigPath": "/images/big/torishimai-beef-beef-teriyaki-set-menu.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Nasi Goreng",
+          "properties": "",
+          "name": "Nasi Goreng Kecombrang Istimewa",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1YF52gVMIWGbUFRMlPQoQx-lDtZ_unUd_/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1YF52gVMIWGbUFRMlPQoQx-lDtZ_unUd_",
+          "originPath": "images/bumbu-bambu-nasi-goreng-nasi-goreng-kecombrang-istimewa.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-nasi-goreng-nasi-goreng-kecombrang-istimewa.webp",
+          "bigPath": "/images/big/bumbu-bambu-nasi-goreng-nasi-goreng-kecombrang-istimewa.webp"
         },
         {
-          "category": "BEEF",
-          "food": "Beef Yakiniku Set Menu",
-          "price": 45000,
-          "originalImage": "https://drive.google.com/file/d/1dICYL4jAy6ifVbHq8U1SZENbj-D2BPcF/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dICYL4jAy6ifVbHq8U1SZENbj-D2BPcF",
-          "originPath": "/images/ori/torishimai-beef-beef-yakiniku-set-menu.jpg",
-          "thumbPath": "/images/thumb/torishimai-beef-beef-yakiniku-set-menu.webp",
-          "bigPath": "/images/big/torishimai-beef-beef-yakiniku-set-menu.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Nasi Goreng",
+          "properties": "",
+          "name": "Nasi Goreng Kampung Istimewa",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Y0hHtFr38ObOevSmD4fxMQ9uaHcuF-9e/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1Y0hHtFr38ObOevSmD4fxMQ9uaHcuF-9e",
+          "originPath": "images/bumbu-bambu-nasi-goreng-nasi-goreng-kampung-istimewa.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-nasi-goreng-nasi-goreng-kampung-istimewa.webp",
+          "bigPath": "/images/big/bumbu-bambu-nasi-goreng-nasi-goreng-kampung-istimewa.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Nasi Goreng",
+          "properties": "",
+          "name": "Nasi Goreng Teri Sambal Ijo",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Y-wVxHCs9sansUy85j-eJyOqllPdW5HS/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1Y-wVxHCs9sansUy85j-eJyOqllPdW5HS",
+          "originPath": "images/bumbu-bambu-nasi-goreng-nasi-goreng-teri-sambal-ijo.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-nasi-goreng-nasi-goreng-teri-sambal-ijo.webp",
+          "bigPath": "/images/big/bumbu-bambu-nasi-goreng-nasi-goreng-teri-sambal-ijo.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Nasi Goreng",
+          "properties": "",
+          "name": "Nasi Goreng Suwir Tongkol Sambal Matah",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1X1A8I_cvxXZAcqk-EVu6t1STC4tu0TMF/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1X1A8I_cvxXZAcqk-EVu6t1STC4tu0TMF",
+          "originPath": "images/bumbu-bambu-nasi-goreng-nasi-goreng-suwir-tongkol-sambal-matah.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-nasi-goreng-nasi-goreng-suwir-tongkol-sambal-matah.webp",
+          "bigPath": "/images/big/bumbu-bambu-nasi-goreng-nasi-goreng-suwir-tongkol-sambal-matah.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Nasi Goreng",
+          "properties": "",
+          "name": "Nasi Goreng Bumbu Bali",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL",
+          "originPath": "images/bumbu-bambu-nasi-goreng-nasi-goreng-bumbu-bali.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-nasi-goreng-nasi-goreng-bumbu-bali.webp",
+          "bigPath": "/images/big/bumbu-bambu-nasi-goreng-nasi-goreng-bumbu-bali.webp"
         }
       ],
-      "NOODLE": [
+      "PAKET NASI COMBO": [
         {
-          "category": "NOODLE",
-          "food": "Beef Udon Kare Spicy Set",
-          "price": 45000,
-          "originalImage": "https://drive.google.com/file/d/1dQklhGY0uTThVLLBIizrHJVMq8KwL_Rs/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dQklhGY0uTThVLLBIizrHJVMq8KwL_Rs",
-          "originPath": "/images/ori/torishimai-noodle-beef-udon-kare-spicy-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-beef-udon-kare-spicy-set.webp",
-          "bigPath": "/images/big/torishimai-noodle-beef-udon-kare-spicy-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Hemat Ikan Sambal Matah",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1b2Rd3kgFBwq7GtAQ0N44eeoL0iZjF4u4/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1b2Rd3kgFBwq7GtAQ0N44eeoL0iZjF4u4",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.webp"
         },
         {
-          "category": "NOODLE",
-          "food": "Yaki Udon",
-          "price": 39000,
-          "originalImage": "https://drive.google.com/file/d/1dGj3Mc8WB7s5ZisdqJYqLzduyNynND0f/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dGj3Mc8WB7s5ZisdqJYqLzduyNynND0f",
-          "originPath": "/images/ori/torishimai-noodle-yaki-udon.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-yaki-udon.webp",
-          "bigPath": "/images/big/torishimai-noodle-yaki-udon.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Hemat Ayam Cabai Ijo",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bCcWQgZwJ07fptnRF7Jd37_bQHvMlZd9/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1bCcWQgZwJ07fptnRF7Jd37_bQHvMlZd9",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.webp"
         },
         {
-          "category": "NOODLE",
-          "food": "Kaizen Udon Combo Set",
-          "price": 55000,
-          "originalImage": "https://drive.google.com/file/d/1rqXXoery-k1KgiQHj6q1M8g4Luubh09e/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1rqXXoery-k1KgiQHj6q1M8g4Luubh09e",
-          "originPath": "/images/ori/torishimai-noodle-kaizen-udon-combo-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-kaizen-udon-combo-set.webp",
-          "bigPath": "/images/big/torishimai-noodle-kaizen-udon-combo-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Komplit Nasi Rames Ayam Woku Ikan Sambal Matah",
+          "description": "",
+          "price": {
+            "value": 47500,
+            "formatted": "IDR 47.500",
+            "string": "IDR 47.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-rames-ayam-woku-ikan-sambal-matah.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-rames-ayam-woku-ikan-sambal-matah.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-rames-ayam-woku-ikan-sambal-matah.webp"
         },
         {
-          "category": "NOODLE",
-          "food": "Yakiudon Udon Combo Set",
-          "price": 53000,
-          "originalImage": "https://drive.google.com/file/d/1oWhZciLQLUGoPl55XNe8GHDDtg1qEtUS/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1oWhZciLQLUGoPl55XNe8GHDDtg1qEtUS",
-          "originPath": "/images/ori/torishimai-noodle-yakiudon-udon-combo-set.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-yakiudon-udon-combo-set.webp",
-          "bigPath": "/images/big/torishimai-noodle-yakiudon-udon-combo-set.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Komplit Ayam Kecap",
+          "description": "",
+          "price": {
+            "value": 47500,
+            "formatted": "IDR 47.500",
+            "string": "IDR 47.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1b4RTvGfE69TqbT-CV_qby_GlzjLvAAJI/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1b4RTvGfE69TqbT-CV_qby_GlzjLvAAJI",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.webp"
         },
         {
-          "category": "NOODLE",
-          "food": "Kaizen Udon",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1rpjx9ohi8wJ6uDr34TveKzVvyyIXzrq9/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1rpjx9ohi8wJ6uDr34TveKzVvyyIXzrq9",
-          "originPath": "/images/ori/torishimai-noodle-kaizen-udon.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-kaizen-udon.webp",
-          "bigPath": "/images/big/torishimai-noodle-kaizen-udon.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Komplit Ayam Woku Ikan Sambal Matah",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1WrwB3jvJ05EUf_SnfdwLY5Kgx3TjTUMw/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1WrwB3jvJ05EUf_SnfdwLY5Kgx3TjTUMw",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.webp"
         },
         {
-          "category": "NOODLE",
-          "food": "Torishimai chicken kare noodle",
-          "price": 38000,
-          "originalImage": "https://drive.google.com/file/d/149bh7a3ThelytNEKyGWXXCUEW34YpqAy/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=149bh7a3ThelytNEKyGWXXCUEW34YpqAy",
-          "originPath": "/images/ori/torishimai-noodle-torishimai-chicken-kare-noodle.jpg",
-          "thumbPath": "/images/thumb/torishimai-noodle-torishimai-chicken-kare-noodle.webp",
-          "bigPath": "/images/big/torishimai-noodle-torishimai-chicken-kare-noodle.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Komplit Nasi Kerabu Ayam Percik",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rhmVm5oiJzP-O26Od46Nry1EmOQ2hWgO/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1rhmVm5oiJzP-O26Od46Nry1EmOQ2hWgO",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "PAKET NASI COMBO",
+          "properties": "",
+          "name": "Combo Komplit Tongseng Kambing",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1XjvGVmVxpDbjmNqlXsgO-8Tngs4rSXeL/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1XjvGVmVxpDbjmNqlXsgO-8Tngs4rSXeL",
+          "originPath": "images/bumbu-bambu-paket-nasi-combo-combo-komplit-tongseng-kambing.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-tongseng-kambing.webp",
+          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-tongseng-kambing.webp"
         }
       ],
-      "SUSHI": [
+      "Rice Bowl": [
         {
-          "category": "SUSHI",
-          "food": "Sushi Chicken Teriyaki",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1d1Gdhr0nw7dTBAtqrmw-WHPCugmZUrdN/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1d1Gdhr0nw7dTBAtqrmw-WHPCugmZUrdN",
-          "originPath": "/images/ori/torishimai-sushi-sushi-chicken-teriyaki.jpg",
-          "thumbPath": "/images/thumb/torishimai-sushi-sushi-chicken-teriyaki.webp",
-          "bigPath": "/images/big/torishimai-sushi-sushi-chicken-teriyaki.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Rice Bowl",
+          "properties": "",
+          "name": "Rice Bowl Rendang Sapi",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1m9LKgHu6uzLwk3Q3IkHDMR2v0AObG9oI/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1m9LKgHu6uzLwk3Q3IkHDMR2v0AObG9oI",
+          "originPath": "images/bumbu-bambu-rice-bowl-rice-bowl-rendang-sapi.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-rice-bowl-rice-bowl-rendang-sapi.webp",
+          "bigPath": "/images/big/bumbu-bambu-rice-bowl-rice-bowl-rendang-sapi.webp"
         },
         {
-          "category": "SUSHI",
-          "food": "Sushi Kani Sesame Roll",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1dDkUUnzLWM8AhcsgSt2apztiTgWBzVY8/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dDkUUnzLWM8AhcsgSt2apztiTgWBzVY8",
-          "originPath": "/images/ori/torishimai-sushi-sushi-kani-sesame-roll.jpg",
-          "thumbPath": "/images/thumb/torishimai-sushi-sushi-kani-sesame-roll.webp",
-          "bigPath": "/images/big/torishimai-sushi-sushi-kani-sesame-roll.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Rice Bowl",
+          "properties": "",
+          "name": "Rice Bowl Empal Daging Sapi",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1H_7j8cwUIBTehnyaVfMfE4tTWMrfQoN0/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1H_7j8cwUIBTehnyaVfMfE4tTWMrfQoN0",
+          "originPath": "images/bumbu-bambu-rice-bowl-rice-bowl-empal-daging-sapi.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-rice-bowl-rice-bowl-empal-daging-sapi.webp",
+          "bigPath": "/images/big/bumbu-bambu-rice-bowl-rice-bowl-empal-daging-sapi.webp"
         },
         {
-          "category": "SUSHI",
-          "food": "California Roll",
-          "price": 38000,
-          "originalImage": "https://drive.google.com/file/d/1ckA5krTYYAPUmjQxKIM_62pPskaPDWIO/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1ckA5krTYYAPUmjQxKIM_62pPskaPDWIO",
-          "originPath": "/images/ori/torishimai-sushi-california-roll.jpg",
-          "thumbPath": "/images/thumb/torishimai-sushi-california-roll.webp",
-          "bigPath": "/images/big/torishimai-sushi-california-roll.webp"
-        },
-        {
-          "category": "SUSHI",
-          "food": "Salmon Volcano Roll",
-          "price": 42000,
-          "originalImage": "https://drive.google.com/file/d/1cnYqChwFSW0sa_PvuCkH9lBF0bgVpzo1/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1cnYqChwFSW0sa_PvuCkH9lBF0bgVpzo1",
-          "originPath": "/images/ori/torishimai-sushi-salmon-volcano-roll.jpg",
-          "thumbPath": "/images/thumb/torishimai-sushi-salmon-volcano-roll.webp",
-          "bigPath": "/images/big/torishimai-sushi-salmon-volcano-roll.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Rice Bowl",
+          "properties": "",
+          "name": "Rice Bowl Ayam Bumbu Bali",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1H_E4GUsW7bCuRTAzlUTbX0gowIDfBjx_/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1H_E4GUsW7bCuRTAzlUTbX0gowIDfBjx_",
+          "originPath": "images/bumbu-bambu-rice-bowl-rice-bowl-ayam-bumbu-bali.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-rice-bowl-rice-bowl-ayam-bumbu-bali.webp",
+          "bigPath": "/images/big/bumbu-bambu-rice-bowl-rice-bowl-ayam-bumbu-bali.webp"
         }
       ],
-      "TEMPURA": [
+      "MASAKAN BEKU": [
         {
-          "category": "TEMPURA",
-          "food": "Seafood Tempura",
-          "price": 42000,
-          "originalImage": "https://drive.google.com/file/d/1cQeHuer9P3VaWnrPLfIFYa4f9rbVrJBE/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1cQeHuer9P3VaWnrPLfIFYa4f9rbVrJBE",
-          "originPath": "/images/ori/torishimai-tempura-seafood-tempura.jpg",
-          "thumbPath": "/images/thumb/torishimai-tempura-seafood-tempura.webp",
-          "bigPath": "/images/big/torishimai-tempura-seafood-tempura.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MASAKAN BEKU",
+          "properties": "",
+          "name": "Rendang Sapi 350gr (Beku)",
+          "description": "",
+          "price": {
+            "value": 90000,
+            "formatted": "IDR 90.000",
+            "string": "IDR 90.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1XtNLgzqWOYsHoiIdeOHjp4xKrtaaXkVg/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1XtNLgzqWOYsHoiIdeOHjp4xKrtaaXkVg",
+          "originPath": "images/bumbu-bambu-masakan-beku-rendang-sapi-350gr-beku.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-rendang-sapi-350gr-beku.webp",
+          "bigPath": "/images/big/bumbu-bambu-masakan-beku-rendang-sapi-350gr-beku.webp"
         },
         {
-          "category": "TEMPURA",
-          "food": "Vegetables Tempura",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1dChffPC1teZVvBptysMjyW1EyQJkFj3A/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1dChffPC1teZVvBptysMjyW1EyQJkFj3A",
-          "originPath": "/images/ori/torishimai-tempura-vegetables-tempura.jpg",
-          "thumbPath": "/images/thumb/torishimai-tempura-vegetables-tempura.webp",
-          "bigPath": "/images/big/torishimai-tempura-vegetables-tempura.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MASAKAN BEKU",
+          "properties": "",
+          "name": "Opor Ayam 4pcs (Beku)",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1XdwLDr0Zq3I7UkCCbOQekVclskVBW4mH/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1XdwLDr0Zq3I7UkCCbOQekVclskVBW4mH",
+          "originPath": "images/bumbu-bambu-masakan-beku-opor-ayam-4pcs-beku.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-opor-ayam-4pcs-beku.webp",
+          "bigPath": "/images/big/bumbu-bambu-masakan-beku-opor-ayam-4pcs-beku.webp"
         },
         {
-          "category": "TEMPURA",
-          "food": "Oyster Mushroom Tempura",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1-DAfj6X2HXZoPdRSFSVfPQXVoZIgRA37/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1-DAfj6X2HXZoPdRSFSVfPQXVoZIgRA37",
-          "originPath": "/images/ori/torishimai-tempura-oyster-mushroom-tempura.jpg",
-          "thumbPath": "/images/thumb/torishimai-tempura-oyster-mushroom-tempura.webp",
-          "bigPath": "/images/big/torishimai-tempura-oyster-mushroom-tempura.webp"
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MASAKAN BEKU",
+          "properties": "",
+          "name": "Ayam Bekakak Bumbu Bali Utuh (Beku)",
+          "description": "",
+          "price": {
+            "value": 110000,
+            "formatted": "IDR 110.000",
+            "string": "IDR 110.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Xi8WG_tkwEcdQ-OKgthxizzsqUnNdLRi/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1Xi8WG_tkwEcdQ-OKgthxizzsqUnNdLRi",
+          "originPath": "images/bumbu-bambu-masakan-beku-ayam-bekakak-bumbu-bali-utuh-beku.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-ayam-bekakak-bumbu-bali-utuh-beku.webp",
+          "bigPath": "/images/big/bumbu-bambu-masakan-beku-ayam-bekakak-bumbu-bali-utuh-beku.webp"
+        }
+      ],
+      "MAKANAN RINGAN": [
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Tempe Mendoan Ceria",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1pmNDJeWXHtthtU9BCFx49tRm-M6u_x2g/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1pmNDJeWXHtthtU9BCFx49tRm-M6u_x2g",
+          "originPath": "images/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.webp",
+          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Singkong Susu Thailand",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1pmMClJSOswIzrHi2Ss-Wat6ztqaQbyLt/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1pmMClJSOswIzrHi2Ss-Wat6ztqaQbyLt",
+          "originPath": "images/bumbu-bambu-makanan-ringan-singkong-susu-thailand.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-singkong-susu-thailand.webp",
+          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-singkong-susu-thailand.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Singkong Goreng Rempah Crispy",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1b8LlMcahw3tCw4HAVKoU29QgapVsGbh4/view?usp=sharing",
+          "imageUrl": "https://drive.google.com/uc?id=1b8LlMcahw3tCw4HAVKoU29QgapVsGbh4",
+          "originPath": "images/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.webp",
+          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Kulit Ayam Krispy",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HmdZ8nN-Za7V24vPm4GZSCOhmYivqFKR/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HmdZ8nN-Za7V24vPm4GZSCOhmYivqFKR",
+          "originPath": "images/bumbu-bambu-makanan-ringan-kulit-ayam-krispy.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-kulit-ayam-krispy.webp",
+          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-kulit-ayam-krispy.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Tahu Gejrot",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HapEDNHG2TQ2mkG4V4pXWbKfHA-bg7_G/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HapEDNHG2TQ2mkG4V4pXWbKfHA-bg7_G",
+          "originPath": "images/bumbu-bambu-makanan-ringan-tahu-gejrot.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-tahu-gejrot.webp",
+          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-tahu-gejrot.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "MAKANAN RINGAN",
+          "properties": "",
+          "name": "Pisang Goreng Wijen",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Lainnya": [
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Lainnya",
+          "properties": "",
+          "name": "Nasi Putih",
+          "description": "",
+          "price": {
+            "value": 5000,
+            "formatted": "IDR 5.000",
+            "string": "IDR 5.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1sg_rhJSDs6UXJZmrTwlkP5joJ9J5ANFW/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1sg_rhJSDs6UXJZmrTwlkP5joJ9J5ANFW",
+          "originPath": "images/bumbu-bambu-lainnya-nasi-putih.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-lainnya-nasi-putih.webp",
+          "bigPath": "/images/big/bumbu-bambu-lainnya-nasi-putih.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Lainnya",
+          "properties": "",
+          "name": "Tongseng Kambing",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Lainnya",
+          "properties": "",
+          "name": "Empal Alacarte",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Lainnya",
+          "properties": "",
+          "name": "Telur Ceplok/Dadar",
+          "description": "",
+          "price": {
+            "value": 5000,
+            "formatted": "IDR 5.000",
+            "string": "IDR 5.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Bumbu Bambu",
+          "category": "Lainnya",
+          "properties": "range",
+          "name": "Custom Hampers",
+          "description": "",
+          "price": {
+            "type": "range",
+            "value": [
+              100000,
+              500000
+            ],
+            "formatted": [
+              "IDR 100.000",
+              "IDR 500.000"
+            ],
+            "string": "IDR 100.000 - IDR 500.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Hw72dbaxnfjqbtsYCpP3I2xgmOmca5xk/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1Hw72dbaxnfjqbtsYCpP3I2xgmOmca5xk",
+          "originPath": "images/bumbu-bambu-lainnya-custom-hampers.jpg",
+          "thumbPath": "/images/thumb/bumbu-bambu-lainnya-custom-hampers.webp",
+          "bigPath": "/images/big/bumbu-bambu-lainnya-custom-hampers.webp"
         }
       ]
-    }
+    },
+    "categories": [
+      "Sup & Soto",
+      "Nasi Goreng",
+      "PAKET NASI COMBO",
+      "Rice Bowl",
+      "MASAKAN BEKU",
+      "MAKANAN RINGAN",
+      "Lainnya"
+    ]
   },
   {
     "id": "kottori",
     "name": "K-Ottori",
     "icon": "/icons/k-ottori.svg",
     "menu": {
+      "Kimchi": [
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Kimchi",
+          "properties": "multiple",
+          "name": "Sawi Putih",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              40000,
+              90000
+            ],
+            "formatted": [
+              "IDR 40.000",
+              "IDR 90.000"
+            ],
+            "string": "IDR 40.000 / IDR 90.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bjXGeoPM-ZkQjeGV8dNbn98x9U1hAl9p/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1bjXGeoPM-ZkQjeGV8dNbn98x9U1hAl9p",
+          "originPath": "images/k-ottori-kimchi-sawi-putih.jpg",
+          "thumbPath": "/images/thumb/k-ottori-kimchi-sawi-putih.webp",
+          "bigPath": "/images/big/k-ottori-kimchi-sawi-putih.webp"
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Kimchi",
+          "properties": "multiple",
+          "name": "Sawi Asin",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              40000,
+              90000
+            ],
+            "formatted": [
+              "IDR 40.000",
+              "IDR 90.000"
+            ],
+            "string": "IDR 40.000 / IDR 90.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bVaK-vfC8njkQ-HI6wTqmNhU54X8_qyN/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1bVaK-vfC8njkQ-HI6wTqmNhU54X8_qyN",
+          "originPath": "images/k-ottori-kimchi-sawi-asin.jpg",
+          "thumbPath": "/images/thumb/k-ottori-kimchi-sawi-asin.webp",
+          "bigPath": "/images/big/k-ottori-kimchi-sawi-asin.webp"
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Kimchi",
+          "properties": "multiple",
+          "name": "Lobak Kimchi",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              40000,
+              90000
+            ],
+            "formatted": [
+              "IDR 40.000",
+              "IDR 90.000"
+            ],
+            "string": "IDR 40.000 / IDR 90.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1c7EcLvZ5An6wwA6tw6lsiHpLezQ7yd70/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1c7EcLvZ5An6wwA6tw6lsiHpLezQ7yd70",
+          "originPath": "images/k-ottori-kimchi-lobak-kimchi.jpg",
+          "thumbPath": "/images/thumb/k-ottori-kimchi-lobak-kimchi.webp",
+          "bigPath": "/images/big/k-ottori-kimchi-lobak-kimchi.webp"
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Kimchi",
+          "properties": "multiple",
+          "name": "Timun Kimchi",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              40000,
+              90000
+            ],
+            "formatted": [
+              "IDR 40.000",
+              "IDR 90.000"
+            ],
+            "string": "IDR 40.000 / IDR 90.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1c4IfWT_ryP8kar614da5YbnmRb5qWCgu/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1c4IfWT_ryP8kar614da5YbnmRb5qWCgu",
+          "originPath": "images/k-ottori-kimchi-timun-kimchi.jpg",
+          "thumbPath": "/images/thumb/k-ottori-kimchi-timun-kimchi.webp",
+          "bigPath": "/images/big/k-ottori-kimchi-timun-kimchi.webp"
+        }
+      ],
       "APPETIZER": [
         {
+          "type": "item",
+          "resto": "K-Ottori",
           "category": "APPETIZER",
-          "food": "Kimchi Sawi Putih/Pahit  (Regular)",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1bjXGeoPM-ZkQjeGV8dNbn98x9U1hAl9p/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bjXGeoPM-ZkQjeGV8dNbn98x9U1hAl9p",
-          "originPath": "/images/ori/k-ottori-appetizer-kimchi-sawi-putih-pahit-regular.jpg",
-          "thumbPath": "/images/thumb/k-ottori-appetizer-kimchi-sawi-putih-pahit-regular.webp",
-          "bigPath": "/images/big/k-ottori-appetizer-kimchi-sawi-putih-pahit-regular.webp"
+          "properties": "",
+          "name": "Kimbab",
+          "description": "",
+          "price": {
+            "value": 39000,
+            "formatted": "IDR 39.000",
+            "string": "IDR 39.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bXUahSyD4TxV0eSSvJoM357JfBMFpq6x/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1bXUahSyD4TxV0eSSvJoM357JfBMFpq6x",
+          "originPath": "images/k-ottori-appetizer-kimbab.jpg",
+          "thumbPath": "/images/thumb/k-ottori-appetizer-kimbab.webp",
+          "bigPath": "/images/big/k-ottori-appetizer-kimbab.webp"
         },
         {
+          "type": "item",
+          "resto": "K-Ottori",
           "category": "APPETIZER",
-          "food": "Kimchi Sawi Putih/Pahit  (Large /Bisa Mix)",
-          "price": 90000,
-          "originalImage": "https://drive.google.com/file/d/1bVaK-vfC8njkQ-HI6wTqmNhU54X8_qyN/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bVaK-vfC8njkQ-HI6wTqmNhU54X8_qyN",
-          "originPath": "/images/ori/k-ottori-appetizer-kimchi-sawi-putih-pahit-large-bisa-mix.jpg",
-          "thumbPath": "/images/thumb/k-ottori-appetizer-kimchi-sawi-putih-pahit-large-bisa-mix.webp",
-          "bigPath": "/images/big/k-ottori-appetizer-kimchi-sawi-putih-pahit-large-bisa-mix.webp"
-        }
-      ],
-      "CHICKEN MEAT": [
-        {
-          "category": "CHICKEN MEAT",
-          "food": "Chicken Lolipop Set",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1bzPf540BUF6c0fnVpEMt12qbafycKIJ0/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bzPf540BUF6c0fnVpEMt12qbafycKIJ0",
-          "originPath": "/images/ori/k-ottori-chicken-meat-chicken-lolipop-set.jpg",
-          "thumbPath": "/images/thumb/k-ottori-chicken-meat-chicken-lolipop-set.webp",
-          "bigPath": "/images/big/k-ottori-chicken-meat-chicken-lolipop-set.webp"
-        },
-        {
-          "category": "CHICKEN MEAT",
-          "food": "Dakkochi Chicken Skewers (Korean Satay)",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1bdLvur3k-SmsUvi5yZ4jrgH42LO1uQ0r/view?usp=sharing",
+          "properties": "",
+          "name": "Dakkochi Chicken",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bdLvur3k-SmsUvi5yZ4jrgH42LO1uQ0r/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1bdLvur3k-SmsUvi5yZ4jrgH42LO1uQ0r",
-          "originPath": "/images/ori/k-ottori-chicken-meat-dakkochi-chicken-skewers-korean-satay.jpg",
-          "thumbPath": "/images/thumb/k-ottori-chicken-meat-dakkochi-chicken-skewers-korean-satay.webp",
-          "bigPath": "/images/big/k-ottori-chicken-meat-dakkochi-chicken-skewers-korean-satay.webp"
-        }
-      ],
-      "BEEF": [
-        {
-          "category": "BEEF",
-          "food": "Beef Bulgogi Rice Set",
-          "price": 55000,
-          "originalImage": "https://drive.google.com/file/d/1bo4sM6RxObgbXg6VuTHQP-9L3fT5H2nx/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bo4sM6RxObgbXg6VuTHQP-9L3fT5H2nx",
-          "originPath": "/images/ori/k-ottori-beef-beef-bulgogi-rice-set.jpg",
-          "thumbPath": "/images/thumb/k-ottori-beef-beef-bulgogi-rice-set.webp",
-          "bigPath": "/images/big/k-ottori-beef-beef-bulgogi-rice-set.webp"
+          "originPath": "images/k-ottori-appetizer-dakkochi-chicken.jpg",
+          "thumbPath": "/images/thumb/k-ottori-appetizer-dakkochi-chicken.webp",
+          "bigPath": "/images/big/k-ottori-appetizer-dakkochi-chicken.webp"
         },
         {
-          "category": "BEEF",
-          "food": "Korean Kalbi Beef BBQ",
-          "price": 75000,
-          "originalImage": "https://drive.google.com/file/d/1iLa8CYRewXOTT379fSsFP38GRmSXV4rO/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1iLa8CYRewXOTT379fSsFP38GRmSXV4rO",
-          "originPath": "/images/ori/k-ottori-beef-korean-kalbi-beef-bbq.jpg",
-          "thumbPath": "/images/thumb/k-ottori-beef-korean-kalbi-beef-bbq.webp",
-          "bigPath": "/images/big/k-ottori-beef-korean-kalbi-beef-bbq.webp"
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "APPETIZER",
+          "properties": "",
+          "name": "Lollipop Chicken",
+          "description": "",
+          "price": {
+            "value": 32000,
+            "formatted": "IDR 32.000",
+            "string": "IDR 32.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1byusH2KSkJNdZkOgx0-F-q4uWinPGA--/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1byusH2KSkJNdZkOgx0-F-q4uWinPGA--",
+          "originPath": "images/k-ottori-appetizer-lollipop-chicken.jpg",
+          "thumbPath": "/images/thumb/k-ottori-appetizer-lollipop-chicken.webp",
+          "bigPath": "/images/big/k-ottori-appetizer-lollipop-chicken.webp"
         },
         {
-          "category": "BEEF",
-          "food": "Kalbi Tang",
-          "price": 65000,
-          "originalImage": "https://drive.google.com/file/d/1bzPf540BUF6c0fnVpEMt12qbafycKIJ0/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bzPf540BUF6c0fnVpEMt12qbafycKIJ0",
-          "originPath": "/images/ori/k-ottori-beef-kalbi-tang.jpg",
-          "thumbPath": "/images/thumb/k-ottori-beef-kalbi-tang.webp",
-          "bigPath": "/images/big/k-ottori-beef-kalbi-tang.webp"
-        },
-        {
-          "category": "BEEF",
-          "food": "Kalbi Tang Set",
-          "price": 75000,
-          "originalImage": "",
-          "imageUrl": "",
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "APPETIZER",
+          "properties": "",
+          "name": "Korean Fish Cake",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
           "originPath": null,
           "thumbPath": null,
           "bigPath": null
         }
       ],
-      "SEAFOOD": [
+      "Soup & Noodle": [
         {
-          "category": "SEAFOOD",
-          "food": "Jjamppong Spicy Seafood",
-          "price": 48000,
-          "originalImage": "https://drive.google.com/file/d/1bZXRHxWujDQgWvT6VNLUe3IpjDkNRZah/view?usp=sharing",
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Soup & Noodle",
+          "properties": "",
+          "name": "Kalbi Tang",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bzPf540BUF6c0fnVpEMt12qbafycKIJ0/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1bzPf540BUF6c0fnVpEMt12qbafycKIJ0",
+          "originPath": "images/k-ottori-soup-noodle-kalbi-tang.jpg",
+          "thumbPath": "/images/thumb/k-ottori-soup-noodle-kalbi-tang.webp",
+          "bigPath": "/images/big/k-ottori-soup-noodle-kalbi-tang.webp"
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Soup & Noodle",
+          "properties": "",
+          "name": "Kali Tang Set",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Soup & Noodle",
+          "properties": "",
+          "name": "Korean Chicken & Beef Rollade",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Soup & Noodle",
+          "properties": "",
+          "name": "Jjampong Spicy Seafood",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bZXRHxWujDQgWvT6VNLUe3IpjDkNRZah/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1bZXRHxWujDQgWvT6VNLUe3IpjDkNRZah",
-          "originPath": "/images/ori/k-ottori-seafood-jjamppong-spicy-seafood.jpg",
-          "thumbPath": "/images/thumb/k-ottori-seafood-jjamppong-spicy-seafood.webp",
-          "bigPath": "/images/big/k-ottori-seafood-jjamppong-spicy-seafood.webp"
+          "originPath": "images/k-ottori-soup-noodle-jjampong-spicy-seafood.jpg",
+          "thumbPath": "/images/thumb/k-ottori-soup-noodle-jjampong-spicy-seafood.webp",
+          "bigPath": "/images/big/k-ottori-soup-noodle-jjampong-spicy-seafood.webp"
         }
       ],
-      "RICE & NOODLE": [
+      "Bento Kombo Set": [
         {
-          "category": "RICE & NOODLE",
-          "food": "Korean Kimbab",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1bXUahSyD4TxV0eSSvJoM357JfBMFpq6x/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bXUahSyD4TxV0eSSvJoM357JfBMFpq6x",
-          "originPath": "/images/ori/k-ottori-rice-noodle-korean-kimbab.jpg",
-          "thumbPath": "/images/thumb/k-ottori-rice-noodle-korean-kimbab.webp",
-          "bigPath": "/images/big/k-ottori-rice-noodle-korean-kimbab.webp"
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Bento Kombo Set",
+          "properties": "",
+          "name": "Chicken Lolipop Set",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1byusH2KSkJNdZkOgx0-F-q4uWinPGA--/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1byusH2KSkJNdZkOgx0-F-q4uWinPGA--",
+          "originPath": "images/k-ottori-bento-kombo-set-chicken-lolipop-set.jpg",
+          "thumbPath": "/images/thumb/k-ottori-bento-kombo-set-chicken-lolipop-set.webp",
+          "bigPath": "/images/big/k-ottori-bento-kombo-set-chicken-lolipop-set.webp"
         },
         {
-          "category": "RICE & NOODLE",
-          "food": "Beef BimBimBap",
-          "price": 49000,
-          "originalImage": "https://drive.google.com/file/d/1c6tVqPkUpO0r8S6ivjUksdGEyoIYOIYd/view?usp=sharing",
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Bento Kombo Set",
+          "properties": "",
+          "name": "Beef Bulgogi Rice Set",
+          "description": "",
+          "price": {
+            "value": 75000,
+            "formatted": "IDR 75.000",
+            "string": "IDR 75.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1bo4sM6RxObgbXg6VuTHQP-9L3fT5H2nx/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1bo4sM6RxObgbXg6VuTHQP-9L3fT5H2nx",
+          "originPath": "images/k-ottori-bento-kombo-set-beef-bulgogi-rice-set.jpg",
+          "thumbPath": "/images/thumb/k-ottori-bento-kombo-set-beef-bulgogi-rice-set.webp",
+          "bigPath": "/images/big/k-ottori-bento-kombo-set-beef-bulgogi-rice-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Bento Kombo Set",
+          "properties": "",
+          "name": "Beef Bim Bim Bap",
+          "description": "",
+          "price": {
+            "value": 65000,
+            "formatted": "IDR 65.000",
+            "string": "IDR 65.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1c6tVqPkUpO0r8S6ivjUksdGEyoIYOIYd/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1c6tVqPkUpO0r8S6ivjUksdGEyoIYOIYd",
-          "originPath": "/images/ori/k-ottori-rice-noodle-beef-bim-bim-bap.jpg",
-          "thumbPath": "/images/thumb/k-ottori-rice-noodle-beef-bim-bim-bap.webp",
-          "bigPath": "/images/big/k-ottori-rice-noodle-beef-bim-bim-bap.webp"
+          "originPath": "images/k-ottori-bento-kombo-set-beef-bim-bim-bap.jpg",
+          "thumbPath": "/images/thumb/k-ottori-bento-kombo-set-beef-bim-bim-bap.webp",
+          "bigPath": "/images/big/k-ottori-bento-kombo-set-beef-bim-bim-bap.webp"
         },
         {
-          "category": "RICE & NOODLE",
-          "food": "Japchae Noodle",
-          "price": 50000,
-          "originalImage": "https://drive.google.com/file/d/1iKcaV0kqNaK9PmvLquV5610zNh0XDRr_/view?usp=sharing",
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Bento Kombo Set",
+          "properties": "",
+          "name": "Jjapche Noodle",
+          "description": "",
+          "price": {
+            "value": 75000,
+            "formatted": "IDR 75.000",
+            "string": "IDR 75.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iKcaV0kqNaK9PmvLquV5610zNh0XDRr_/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1iKcaV0kqNaK9PmvLquV5610zNh0XDRr_",
-          "originPath": "/images/ori/k-ottori-rice-noodle-japchae-noodle.jpg",
-          "thumbPath": "/images/thumb/k-ottori-rice-noodle-japchae-noodle.webp",
-          "bigPath": "/images/big/k-ottori-rice-noodle-japchae-noodle.webp"
+          "originPath": "images/k-ottori-bento-kombo-set-jjapche-noodle.jpg",
+          "thumbPath": "/images/thumb/k-ottori-bento-kombo-set-jjapche-noodle.webp",
+          "bigPath": "/images/big/k-ottori-bento-kombo-set-jjapche-noodle.webp"
         },
         {
-          "category": "RICE & NOODLE",
-          "food": "Korean Chicken & Beef Rollade Ramen",
-          "price": 48000,
-          "originalImage": "https://drive.google.com/file/d/1lJu_eRny9NW0WHRgKFYPb5I_H2RXVlNF/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1lJu_eRny9NW0WHRgKFYPb5I_H2RXVlNF",
-          "originPath": "/images/ori/k-ottori-rice-noodle-korean-chicken-beef-rollade-ramen.jpg",
-          "thumbPath": "/images/thumb/k-ottori-rice-noodle-korean-chicken-beef-rollade-ramen.webp",
-          "bigPath": "/images/big/k-ottori-rice-noodle-korean-chicken-beef-rollade-ramen.webp"
+          "type": "item",
+          "resto": "K-Ottori",
+          "category": "Bento Kombo Set",
+          "properties": "",
+          "name": "Korean Kalbi Beef BBQ",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iLa8CYRewXOTT379fSsFP38GRmSXV4rO/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iLa8CYRewXOTT379fSsFP38GRmSXV4rO",
+          "originPath": "images/k-ottori-bento-kombo-set-korean-kalbi-beef-bbq.jpg",
+          "thumbPath": "/images/thumb/k-ottori-bento-kombo-set-korean-kalbi-beef-bbq.webp",
+          "bigPath": "/images/big/k-ottori-bento-kombo-set-korean-kalbi-beef-bbq.webp"
         }
       ]
-    }
+    },
+    "categories": [
+      "Kimchi",
+      "APPETIZER",
+      "Soup & Noodle",
+      "Bento Kombo Set"
+    ]
   },
   {
-    "id": "bumbubambu",
-    "name": "Bumbu Bambu",
-    "icon": "/icons/bumbubambu.svg",
+    "id": "torishimai",
+    "name": "Torishimai",
+    "icon": "/icons/torishimai.svg",
     "menu": {
-      "NASI": [
+      "Soup": [
         {
-          "category": "NASI",
-          "food": "Nasi Goreng Kecombrang Istimewa",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1YF52gVMIWGbUFRMlPQoQx-lDtZ_unUd_/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1YF52gVMIWGbUFRMlPQoQx-lDtZ_unUd_",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-goreng-kecombrang-istimewa.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-goreng-kecombrang-istimewa.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-goreng-kecombrang-istimewa.webp"
-        },
-        {
-          "category": "NASI",
-          "food": "Nasi Goreng Kampung Istimewa",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1Y0hHtFr38ObOevSmD4fxMQ9uaHcuF-9e/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1Y0hHtFr38ObOevSmD4fxMQ9uaHcuF-9e",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-goreng-kampung-istimewa.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-goreng-kampung-istimewa.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-goreng-kampung-istimewa.webp"
-        },
-        {
-          "category": "NASI",
-          "food": "Nasi Goreng Teri Sambal Ijo",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1Y-wVxHCs9sansUy85j-eJyOqllPdW5HS/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1Y-wVxHCs9sansUy85j-eJyOqllPdW5HS",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-goreng-teri-sambal-ijo.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-goreng-teri-sambal-ijo.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-goreng-teri-sambal-ijo.webp"
-        },
-        {
-          "category": "NASI",
-          "food": "Nasi Goreng Suwir Tongkol Sambal Matah",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1X1A8I_cvxXZAcqk-EVu6t1STC4tu0TMF/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1X1A8I_cvxXZAcqk-EVu6t1STC4tu0TMF",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-goreng-suwir-tongkol-sambal-matah.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-goreng-suwir-tongkol-sambal-matah.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-goreng-suwir-tongkol-sambal-matah.webp"
-        },
-        {
-          "category": "NASI",
-          "food": "Nasi Goreng Ayam Bumbu Bali",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-goreng-ayam-bumbu-bali.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-goreng-ayam-bumbu-bali.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-goreng-ayam-bumbu-bali.webp"
-        },
-        {
-          "category": "NASI",
-          "food": "Nasi Putih Pulen Pandan Wangi",
-          "price": 5000,
-          "originalImage": "https://drive.google.com/file/d/1sg_rhJSDs6UXJZmrTwlkP5joJ9J5ANFW/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1sg_rhJSDs6UXJZmrTwlkP5joJ9J5ANFW",
-          "originPath": "/images/ori/bumbu-bambu-nasi-nasi-putih-pulen-pandan-wangi.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-nasi-nasi-putih-pulen-pandan-wangi.webp",
-          "bigPath": "/images/big/bumbu-bambu-nasi-nasi-putih-pulen-pandan-wangi.webp"
-        }
-      ],
-      "SUP DAN SOTO": [
-        {
-          "category": "SUP DAN SOTO",
-          "food": "Soto Ayam Kampung Spesial",
-          "price": 35000,
-          "originalImage": "https://drive.google.com/file/d/1WuuUTQ-hPe8UQ-3wQ8EO8UKaeWxSvwHz/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1WuuUTQ-hPe8UQ-3wQ8EO8UKaeWxSvwHz",
-          "originPath": "/images/ori/bumbu-bambu-sup-dan-soto-soto-ayam-kampung-spesial.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-sup-dan-soto-soto-ayam-kampung-spesial.webp",
-          "bigPath": "/images/big/bumbu-bambu-sup-dan-soto-soto-ayam-kampung-spesial.webp"
-        },
-        {
-          "category": "SUP DAN SOTO",
-          "food": "Soto Sulung Khas Surabaya",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1XzeiE1K-DotOEnujO82Zz3YSbbp1MWav/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XzeiE1K-DotOEnujO82Zz3YSbbp1MWav",
-          "originPath": "/images/ori/bumbu-bambu-sup-dan-soto-soto-sulung-khas-surabaya.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-sup-dan-soto-soto-sulung-khas-surabaya.webp",
-          "bigPath": "/images/big/bumbu-bambu-sup-dan-soto-soto-sulung-khas-surabaya.webp"
-        },
-        {
-          "category": "SUP DAN SOTO",
-          "food": "Soto Betawi",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1Y4SmgvZeAZzg285OWpecKeg5DLo26blh/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1Y4SmgvZeAZzg285OWpecKeg5DLo26blh",
-          "originPath": "/images/ori/bumbu-bambu-sup-dan-soto-soto-betawi.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-sup-dan-soto-soto-betawi.webp",
-          "bigPath": "/images/big/bumbu-bambu-sup-dan-soto-soto-betawi.webp"
-        },
-        {
-          "category": "SUP DAN SOTO",
-          "food": "Rawon Surabaya Komplit",
-          "price": 40000,
-          "originalImage": "https://drive.google.com/file/d/1XvMgQivcBoveBo3qbhmdWEsk_387x0x7/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XvMgQivcBoveBo3qbhmdWEsk_387x0x7",
-          "originPath": "/images/ori/bumbu-bambu-sup-dan-soto-rawon-surabaya-komplit.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-sup-dan-soto-rawon-surabaya-komplit.webp",
-          "bigPath": "/images/big/bumbu-bambu-sup-dan-soto-rawon-surabaya-komplit.webp"
-        },
-        {
-          "category": "SUP DAN SOTO",
-          "food": "Paket Sup Buntut Rebus",
-          "price": 55000,
-          "originalImage": "",
-          "imageUrl": "",
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Soup",
+          "properties": "",
+          "name": "Miso Sup",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
           "originPath": null,
           "thumbPath": null,
           "bigPath": null
         },
         {
-          "category": "SUP DAN SOTO",
-          "food": "Paket Sup Buntut Goreng/Bakar",
-          "price": 60000,
-          "originalImage": "",
-          "imageUrl": "",
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Soup",
+          "properties": "",
+          "name": "Oden Sup",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
           "originPath": null,
           "thumbPath": null,
           "bigPath": null
         }
       ],
-      "PAKET NASI COMBO": [
+      "Sushi Menu": [
         {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Hemat Ikan Sambal Matah",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1b2Rd3kgFBwq7GtAQ0N44eeoL0iZjF4u4/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1b2Rd3kgFBwq7GtAQ0N44eeoL0iZjF4u4",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-hemat-ikan-sambal-matah.webp"
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Sushi Menu",
+          "properties": "",
+          "name": "California Roll",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ckA5krTYYAPUmjQxKIM_62pPskaPDWIO/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ckA5krTYYAPUmjQxKIM_62pPskaPDWIO",
+          "originPath": "images/torishimai-sushi-menu-california-roll.jpg",
+          "thumbPath": "/images/thumb/torishimai-sushi-menu-california-roll.webp",
+          "bigPath": "/images/big/torishimai-sushi-menu-california-roll.webp"
         },
         {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Hemat Ayam Cabai Ijo",
-          "price": 37500,
-          "originalImage": "https://drive.google.com/file/d/1bCcWQgZwJ07fptnRF7Jd37_bQHvMlZd9/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1bCcWQgZwJ07fptnRF7Jd37_bQHvMlZd9",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-hemat-ayam-cabai-ijo.webp"
-        },
-        {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Komplit Ikan & Ayam Sambal Matah",
-          "price": 47500,
-          "originalImage": "https://drive.google.com/file/d/1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1b6l7OsHQQByX-HnSTbhIXubtCUaZpUsL",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-komplit-ikan-ayam-sambal-matah.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-ikan-ayam-sambal-matah.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-ikan-ayam-sambal-matah.webp"
-        },
-        {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Komplit Ayam Kecap",
-          "price": 47500,
-          "originalImage": "https://drive.google.com/file/d/1b4RTvGfE69TqbT-CV_qby_GlzjLvAAJI/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1b4RTvGfE69TqbT-CV_qby_GlzjLvAAJI",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-kecap.webp"
-        },
-        {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Komplit Ayam Woku Ikan Sambal Matah",
-          "price": 55000,
-          "originalImage": "https://drive.google.com/file/d/1WrwB3jvJ05EUf_SnfdwLY5Kgx3TjTUMw/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1WrwB3jvJ05EUf_SnfdwLY5Kgx3TjTUMw",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-ayam-woku-ikan-sambal-matah.webp"
-        },
-        {
-          "category": "PAKET NASI COMBO",
-          "food": "Combo Komplit Nasi Kerabu Ayam Percik",
-          "price": 50000,
-          "originalImage": "https://drive.google.com/file/d/1rhmVm5oiJzP-O26Od46Nry1EmOQ2hWgO/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1rhmVm5oiJzP-O26Od46Nry1EmOQ2hWgO",
-          "originPath": "/images/ori/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.webp",
-          "bigPath": "/images/big/bumbu-bambu-paket-nasi-combo-combo-komplit-nasi-kerabu-ayam-percik.webp"
-        }
-      ],
-      "DAGING KAMBING": [
-        {
-          "category": "DAGING KAMBING",
-          "food": "Tongseng Kambing",
-          "price": 45000,
-          "originalImage": "https://drive.google.com/file/d/1XjvGVmVxpDbjmNqlXsgO-8Tngs4rSXeL/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XjvGVmVxpDbjmNqlXsgO-8Tngs4rSXeL",
-          "originPath": "/images/ori/bumbu-bambu-daging-kambing-tongseng-kambing.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-daging-kambing-tongseng-kambing.webp",
-          "bigPath": "/images/big/bumbu-bambu-daging-kambing-tongseng-kambing.webp"
-        },
-        {
-          "category": "DAGING KAMBING",
-          "food": "Sup Kaki Kambing",
-          "price": 47500,
-          "originalImage": "",
-          "imageUrl": "",
-          "originPath": null,
-          "thumbPath": null,
-          "bigPath": null
-        }
-      ],
-      "MAKANAN RINGAN": [
-        {
-          "category": "MAKANAN RINGAN",
-          "food": "Tempe Mendoan Ceria",
-          "price": 15000,
-          "originalImage": "https://drive.google.com/file/d/1pmNDJeWXHtthtU9BCFx49tRm-M6u_x2g/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1pmNDJeWXHtthtU9BCFx49tRm-M6u_x2g",
-          "originPath": "/images/ori/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.webp",
-          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-tempe-mendoan-ceria.webp"
-        },
-        {
-          "category": "MAKANAN RINGAN",
-          "food": "Singkong Susu Thailand",
-          "price": 20000,
-          "originalImage": "https://drive.google.com/file/d/1pmMClJSOswIzrHi2Ss-Wat6ztqaQbyLt/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1pmMClJSOswIzrHi2Ss-Wat6ztqaQbyLt",
-          "originPath": "/images/ori/bumbu-bambu-makanan-ringan-singkong-susu-thailand.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-singkong-susu-thailand.webp",
-          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-singkong-susu-thailand.webp"
-        },
-        {
-          "category": "MAKANAN RINGAN",
-          "food": "Singkong Goreng Rempah Crispy",
-          "price": 20000,
-          "originalImage": "https://drive.google.com/file/d/1b8LlMcahw3tCw4HAVKoU29QgapVsGbh4/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1b8LlMcahw3tCw4HAVKoU29QgapVsGbh4",
-          "originPath": "/images/ori/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.webp",
-          "bigPath": "/images/big/bumbu-bambu-makanan-ringan-singkong-goreng-rempah-crispy.webp"
-        },
-        {
-          "category": "MAKANAN RINGAN",
-          "food": "Kulit Ayam Wijen Crispy",
-          "price": 20000,
-          "originalImage": "",
-          "imageUrl": "",
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Sushi Menu",
+          "properties": "",
+          "name": "Kani Sesame Roll",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
           "originPath": null,
           "thumbPath": null,
           "bigPath": null
         },
         {
-          "category": "MAKANAN RINGAN",
-          "food": "Tahu Gejrot",
-          "price": 15000,
-          "originalImage": "",
-          "imageUrl": "",
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Sushi Menu",
+          "properties": "",
+          "name": "Sushi Chicken Teriyaki Roll",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1d1Gdhr0nw7dTBAtqrmw-WHPCugmZUrdN/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1d1Gdhr0nw7dTBAtqrmw-WHPCugmZUrdN",
+          "originPath": "images/torishimai-sushi-menu-sushi-chicken-teriyaki-roll.jpg",
+          "thumbPath": "/images/thumb/torishimai-sushi-menu-sushi-chicken-teriyaki-roll.webp",
+          "bigPath": "/images/big/torishimai-sushi-menu-sushi-chicken-teriyaki-roll.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Sushi Menu",
+          "properties": "",
+          "name": "Dragon Roll",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Sushi Menu",
+          "properties": "",
+          "name": "Tempura Sushi",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
           "originPath": null,
           "thumbPath": null,
           "bigPath": null
         }
       ],
-      "MASAKAN BEKU (FROZEN CUISINES)": [
+      "Hot Appetizer": [
         {
-          "category": "MASAKAN BEKU (FROZEN CUISINES)",
-          "food": "Rendang Sapi 350 gr",
-          "price": 90000,
-          "originalImage": "https://drive.google.com/file/d/1XtNLgzqWOYsHoiIdeOHjp4xKrtaaXkVg/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XtNLgzqWOYsHoiIdeOHjp4xKrtaaXkVg",
-          "originPath": "/images/ori/bumbu-bambu-masakan-beku-frozen-cuisines-rendang-sapi-350-gr.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-frozen-cuisines-rendang-sapi-350-gr.webp",
-          "bigPath": "/images/big/bumbu-bambu-masakan-beku-frozen-cuisines-rendang-sapi-350-gr.webp"
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Hot Appetizer",
+          "properties": "",
+          "name": "Sea Food Tempura",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1cQeHuer9P3VaWnrPLfIFYa4f9rbVrJBE/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1cQeHuer9P3VaWnrPLfIFYa4f9rbVrJBE",
+          "originPath": "images/torishimai-hot-appetizer-sea-food-tempura.jpg",
+          "thumbPath": "/images/thumb/torishimai-hot-appetizer-sea-food-tempura.webp",
+          "bigPath": "/images/big/torishimai-hot-appetizer-sea-food-tempura.webp"
         },
         {
-          "category": "MASAKAN BEKU (FROZEN CUISINES)",
-          "food": "Daging Sapi Bumbu Rempah 350 gr",
-          "price": 90000,
-          "originalImage": "https://drive.google.com/file/d/1XcJcq6F3n3KPzCVkghmfi-nmNLFHoI9t/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XcJcq6F3n3KPzCVkghmfi-nmNLFHoI9t",
-          "originPath": "/images/ori/bumbu-bambu-masakan-beku-frozen-cuisines-daging-sapi-bumbu-rempah-350-gr.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-frozen-cuisines-daging-sapi-bumbu-rempah-350-gr.webp",
-          "bigPath": "/images/big/bumbu-bambu-masakan-beku-frozen-cuisines-daging-sapi-bumbu-rempah-350-gr.webp"
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Hot Appetizer",
+          "properties": "",
+          "name": "Vegetables Tempura",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1dChffPC1teZVvBptysMjyW1EyQJkFj3A/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1dChffPC1teZVvBptysMjyW1EyQJkFj3A",
+          "originPath": "images/torishimai-hot-appetizer-vegetables-tempura.jpg",
+          "thumbPath": "/images/thumb/torishimai-hot-appetizer-vegetables-tempura.webp",
+          "bigPath": "/images/big/torishimai-hot-appetizer-vegetables-tempura.webp"
         },
         {
-          "category": "MASAKAN BEKU (FROZEN CUISINES)",
-          "food": "Opor Ayam 350 gr",
-          "price": 50000,
-          "originalImage": "https://drive.google.com/file/d/1XdwLDr0Zq3I7UkCCbOQekVclskVBW4mH/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1XdwLDr0Zq3I7UkCCbOQekVclskVBW4mH",
-          "originPath": "/images/ori/bumbu-bambu-masakan-beku-frozen-cuisines-opor-ayam-350-gr.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-frozen-cuisines-opor-ayam-350-gr.webp",
-          "bigPath": "/images/big/bumbu-bambu-masakan-beku-frozen-cuisines-opor-ayam-350-gr.webp"
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Hot Appetizer",
+          "properties": "",
+          "name": "Oyster Mustroom Tempura",
+          "description": "",
+          "price": {
+            "value": 25000,
+            "formatted": "IDR 25.000",
+            "string": "IDR 25.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1-DAfj6X2HXZoPdRSFSVfPQXVoZIgRA37/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1-DAfj6X2HXZoPdRSFSVfPQXVoZIgRA37",
+          "originPath": "images/torishimai-hot-appetizer-oyster-mustroom-tempura.jpg",
+          "thumbPath": "/images/thumb/torishimai-hot-appetizer-oyster-mustroom-tempura.webp",
+          "bigPath": "/images/big/torishimai-hot-appetizer-oyster-mustroom-tempura.webp"
         },
         {
-          "category": "MASAKAN BEKU (FROZEN CUISINES)",
-          "food": "Ayam Bekakak Bumbu Bali (utuh)",
-          "price": 110000,
-          "originalImage": "https://drive.google.com/file/d/1Xi8WG_tkwEcdQ-OKgthxizzsqUnNdLRi/view?usp=sharing",
-          "imageUrl": "https://drive.google.com/uc?id=1Xi8WG_tkwEcdQ-OKgthxizzsqUnNdLRi",
-          "originPath": "/images/ori/bumbu-bambu-masakan-beku-frozen-cuisines-ayam-bekakak-bumbu-bali-utuh.jpg",
-          "thumbPath": "/images/thumb/bumbu-bambu-masakan-beku-frozen-cuisines-ayam-bekakak-bumbu-bali-utuh.webp",
-          "bigPath": "/images/big/bumbu-bambu-masakan-beku-frozen-cuisines-ayam-bekakak-bumbu-bali-utuh.webp"
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Hot Appetizer",
+          "properties": "",
+          "name": "Chicken Wing Gingger Glazed",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Udon Menu": [
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Udon Menu",
+          "properties": "",
+          "name": "Beef Kare Udon Spicy",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1dQklhGY0uTThVLLBIizrHJVMq8KwL_Rs/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1dQklhGY0uTThVLLBIizrHJVMq8KwL_Rs",
+          "originPath": "images/torishimai-udon-menu-beef-kare-udon-spicy.jpg",
+          "thumbPath": "/images/thumb/torishimai-udon-menu-beef-kare-udon-spicy.webp",
+          "bigPath": "/images/big/torishimai-udon-menu-beef-kare-udon-spicy.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Udon Menu",
+          "properties": "",
+          "name": "Yaki Udon",
+          "description": "",
+          "price": {
+            "value": 39000,
+            "formatted": "IDR 39.000",
+            "string": "IDR 39.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Udon Menu",
+          "properties": "",
+          "name": "Kaizen Udon",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rpjx9ohi8wJ6uDr34TveKzVvyyIXzrq9/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1rpjx9ohi8wJ6uDr34TveKzVvyyIXzrq9",
+          "originPath": "images/torishimai-udon-menu-kaizen-udon.jpg",
+          "thumbPath": "/images/thumb/torishimai-udon-menu-kaizen-udon.webp",
+          "bigPath": "/images/big/torishimai-udon-menu-kaizen-udon.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Udon Menu",
+          "properties": "",
+          "name": "Yaki Udon Kombo Set",
+          "description": "",
+          "price": {
+            "value": 53000,
+            "formatted": "IDR 53.000",
+            "string": "IDR 53.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Udon Menu",
+          "properties": "",
+          "name": "Kaizen Udon Kombo Set",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rqXXoery-k1KgiQHj6q1M8g4Luubh09e/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1rqXXoery-k1KgiQHj6q1M8g4Luubh09e",
+          "originPath": "images/torishimai-udon-menu-kaizen-udon-kombo-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-udon-menu-kaizen-udon-kombo-set.webp",
+          "bigPath": "/images/big/torishimai-udon-menu-kaizen-udon-kombo-set.webp"
+        }
+      ],
+      "Bento Box Set": [
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Beef Yakiniku Set",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1dICYL4jAy6ifVbHq8U1SZENbj-D2BPcF/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1dICYL4jAy6ifVbHq8U1SZENbj-D2BPcF",
+          "originPath": "images/torishimai-bento-box-set-beef-yakiniku-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-beef-yakiniku-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-beef-yakiniku-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Chicken Yakiniku Set",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1Ou5nYyykbE0EWfE_7EkAfjzDxeVyawrv/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1Ou5nYyykbE0EWfE_7EkAfjzDxeVyawrv",
+          "originPath": "images/torishimai-bento-box-set-chicken-yakiniku-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-chicken-yakiniku-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-chicken-yakiniku-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Beef Teriyaki Set",
+          "description": "",
+          "price": {
+            "value": 46000,
+            "formatted": "IDR 46.000",
+            "string": "IDR 46.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1N2xhbqL8Ri6s0B3w7fpENKDKI_1v-_HM/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1N2xhbqL8Ri6s0B3w7fpENKDKI_1v-_HM",
+          "originPath": "images/torishimai-bento-box-set-beef-teriyaki-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-beef-teriyaki-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-beef-teriyaki-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Chicken Teriyaki Set",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1csNipjlBaeljUI_p6vTwUJ8uHgnwSqw_/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1csNipjlBaeljUI_p6vTwUJ8uHgnwSqw_",
+          "originPath": "images/torishimai-bento-box-set-chicken-teriyaki-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-chicken-teriyaki-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-chicken-teriyaki-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Chicken Karage Set",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1dHfoGk0j4rXZhkpRUGAQOudwm9ViqJEf/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1dHfoGk0j4rXZhkpRUGAQOudwm9ViqJEf",
+          "originPath": "images/torishimai-bento-box-set-chicken-karage-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-chicken-karage-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-chicken-karage-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Chicken Katsu Set",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1cMDigg6BUMh182EqFeOW5I0CrGGZKUdN/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1cMDigg6BUMh182EqFeOW5I0CrGGZKUdN",
+          "originPath": "images/torishimai-bento-box-set-chicken-katsu-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-chicken-katsu-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-chicken-katsu-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Bento Box Set",
+          "properties": "",
+          "name": "Chicken Wings Ginger Glazed Set",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1dKpEtRDea2NHVoNzG8oK38kRNTWuopnj/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1dKpEtRDea2NHVoNzG8oK38kRNTWuopnj",
+          "originPath": "images/torishimai-bento-box-set-chicken-wings-ginger-glazed-set.jpg",
+          "thumbPath": "/images/thumb/torishimai-bento-box-set-chicken-wings-ginger-glazed-set.webp",
+          "bigPath": "/images/big/torishimai-bento-box-set-chicken-wings-ginger-glazed-set.webp"
+        }
+      ],
+      "Dessert": [
+        {
+          "type": "item",
+          "resto": "Torishimai",
+          "category": "Dessert",
+          "properties": "multiline",
+          "name": "Japanese Pancake - Banana - Strawbery",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
         }
       ]
-    }
+    },
+    "categories": [
+      "Soup",
+      "Sushi Menu",
+      "Hot Appetizer",
+      "Udon Menu",
+      "Bento Box Set",
+      "Dessert"
+    ]
+  },
+  {
+    "id": "marvelous",
+    "name": "Marvelous",
+    "icon": "/icons/marvelous.svg",
+    "menu": {
+      "Pasta": [
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Spaghetti Aglio E Olio Pepperoncini",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ncleuvXuj_PJuhDPftXtW0nLcttvNC2j/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ncleuvXuj_PJuhDPftXtW0nLcttvNC2j",
+          "originPath": "images/marvelous-pasta-spaghetti-aglio-e-olio-pepperoncini.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-spaghetti-aglio-e-olio-pepperoncini.webp",
+          "bigPath": "/images/big/marvelous-pasta-spaghetti-aglio-e-olio-pepperoncini.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Spaghetti Mushroom Cream Sauce",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1nwHOUMrls1VJDRaVlQEYsdiD5rB3OKHs/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1nwHOUMrls1VJDRaVlQEYsdiD5rB3OKHs",
+          "originPath": "images/marvelous-pasta-spaghetti-mushroom-cream-sauce.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-spaghetti-mushroom-cream-sauce.webp",
+          "bigPath": "/images/big/marvelous-pasta-spaghetti-mushroom-cream-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Spaghetti Tomato Sauce",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1nbiN1dX75Q0_2SOCWG1HUgnGWh-L7KWr/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1nbiN1dX75Q0_2SOCWG1HUgnGWh-L7KWr",
+          "originPath": "images/marvelous-pasta-spaghetti-tomato-sauce.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-spaghetti-tomato-sauce.webp",
+          "bigPath": "/images/big/marvelous-pasta-spaghetti-tomato-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Spaghetti Beef Bolognaise",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1oGJPqjxi1eOak1LVcgGtOGtewF3ocwic/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1oGJPqjxi1eOak1LVcgGtOGtewF3ocwic",
+          "originPath": "images/marvelous-pasta-spaghetti-beef-bolognaise.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-spaghetti-beef-bolognaise.webp",
+          "bigPath": "/images/big/marvelous-pasta-spaghetti-beef-bolognaise.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Macaroni And Cheese",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rAsLe9SKZbMPBvp76KsZ7zJjDZDBkTtc/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1rAsLe9SKZbMPBvp76KsZ7zJjDZDBkTtc",
+          "originPath": "images/marvelous-pasta-macaroni-and-cheese.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-macaroni-and-cheese.webp",
+          "bigPath": "/images/big/marvelous-pasta-macaroni-and-cheese.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "Beef Lasagna",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/11cTsEFwYQ6FxULRcvkBEQ49cDL2k-t0v/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=11cTsEFwYQ6FxULRcvkBEQ49cDL2k-t0v",
+          "originPath": "images/marvelous-pasta-beef-lasagna.jpg",
+          "thumbPath": "/images/thumb/marvelous-pasta-beef-lasagna.webp",
+          "bigPath": "/images/big/marvelous-pasta-beef-lasagna.webp"
+        },
+        {
+          "type": "title",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "name": "Additional With"
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Chicken",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Prawn",
+          "description": "",
+          "price": {
+            "value": 25000,
+            "formatted": "IDR 25.000",
+            "string": "IDR 25.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Mix Seafood",
+          "description": "",
+          "price": {
+            "value": 25000,
+            "formatted": "IDR 25.000",
+            "string": "IDR 25.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Mushroom",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Tuna",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "additional",
+          "resto": "Marvelous",
+          "category": "Pasta",
+          "properties": "",
+          "name": "- Vegetable",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Soup": [
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Soup",
+          "properties": "",
+          "name": "Mushroom Cream Soup",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1n5jTd1uc7iGgtLatK2FFAutzRb1AwgJD/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1n5jTd1uc7iGgtLatK2FFAutzRb1AwgJD",
+          "originPath": "images/marvelous-soup-mushroom-cream-soup.jpg",
+          "thumbPath": "/images/thumb/marvelous-soup-mushroom-cream-soup.webp",
+          "bigPath": "/images/big/marvelous-soup-mushroom-cream-soup.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Soup",
+          "properties": "",
+          "name": "Pumpkin Soup",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1nWeABAzhtKv97VZ2rUu66B7XCszPfAr-/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1nWeABAzhtKv97VZ2rUu66B7XCszPfAr-",
+          "originPath": "images/marvelous-soup-pumpkin-soup.jpg",
+          "thumbPath": "/images/thumb/marvelous-soup-pumpkin-soup.webp",
+          "bigPath": "/images/big/marvelous-soup-pumpkin-soup.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Soup",
+          "properties": "",
+          "name": "Potato Soup",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1-ClW3yDmDZXG_yyXycCel22ff85ukG0F/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1-ClW3yDmDZXG_yyXycCel22ff85ukG0F",
+          "originPath": "images/marvelous-soup-potato-soup.jpg",
+          "thumbPath": "/images/thumb/marvelous-soup-potato-soup.webp",
+          "bigPath": "/images/big/marvelous-soup-potato-soup.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Soup",
+          "properties": "",
+          "name": "Tomato Soup",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rGCegciUzpLStqKX63cLn63WTXYXng5r/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1rGCegciUzpLStqKX63cLn63WTXYXng5r",
+          "originPath": "images/marvelous-soup-tomato-soup.jpg",
+          "thumbPath": "/images/thumb/marvelous-soup-tomato-soup.webp",
+          "bigPath": "/images/big/marvelous-soup-tomato-soup.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "Soup",
+          "properties": "",
+          "name": "Cream Corn Soup",
+          "description": "",
+          "price": {
+            "value": 37000,
+            "formatted": "IDR 37.000",
+            "string": "IDR 37.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "CHICKEN": [
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "Roasted Half Chicken",
+          "description": "",
+          "price": {
+            "value": 80000,
+            "formatted": "IDR 80.000",
+            "string": "IDR 80.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15G2T2BlkE7USveyZrk0eYsvm_lvc77ZA/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15G2T2BlkE7USveyZrk0eYsvm_lvc77ZA",
+          "originPath": "images/marvelous-chicken-roasted-half-chicken.jpg",
+          "thumbPath": "/images/thumb/marvelous-chicken-roasted-half-chicken.webp",
+          "bigPath": "/images/big/marvelous-chicken-roasted-half-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "Chicken Supreme",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1oBQiMV3-fCQlXhwKidvCk2y4iHkYXGE_/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1oBQiMV3-fCQlXhwKidvCk2y4iHkYXGE_",
+          "originPath": "images/marvelous-chicken-chicken-supreme.jpg",
+          "thumbPath": "/images/thumb/marvelous-chicken-chicken-supreme.webp",
+          "bigPath": "/images/big/marvelous-chicken-chicken-supreme.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "BBQ Chicken Wing",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1nlhCakDxCA8Bsz44gdMaveTxR0W7aHsU/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1nlhCakDxCA8Bsz44gdMaveTxR0W7aHsU",
+          "originPath": "images/marvelous-chicken-bbq-chicken-wing.jpg",
+          "thumbPath": "/images/thumb/marvelous-chicken-bbq-chicken-wing.webp",
+          "bigPath": "/images/big/marvelous-chicken-bbq-chicken-wing.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "Dixie Chicken Wing",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1oEv3d6-c27yucIbu5OE2aPt6qfdPP3qf/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1oEv3d6-c27yucIbu5OE2aPt6qfdPP3qf",
+          "originPath": "images/marvelous-chicken-dixie-chicken-wing.jpg",
+          "thumbPath": "/images/thumb/marvelous-chicken-dixie-chicken-wing.webp",
+          "bigPath": "/images/big/marvelous-chicken-dixie-chicken-wing.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "Fried Chicken Wing",
+          "description": "Black Pepper Sauce or Mushroom Sauce",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "CHICKEN",
+          "properties": "",
+          "name": "Chicken Picatta",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1sCdi2xfQFPxqEzewbTQkXXjQASCVLeAg/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1sCdi2xfQFPxqEzewbTQkXXjQASCVLeAg",
+          "originPath": "images/marvelous-chicken-chicken-picatta.jpg",
+          "thumbPath": "/images/thumb/marvelous-chicken-chicken-picatta.webp",
+          "bigPath": "/images/big/marvelous-chicken-chicken-picatta.webp"
+        }
+      ],
+      "SIDE SISHES": [
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SIDE SISHES",
+          "properties": "",
+          "name": "Cream Spinach",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1W2wguRm_R39uJatSUdJpawhZnBuES-Ou/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1W2wguRm_R39uJatSUdJpawhZnBuES-Ou",
+          "originPath": "images/marvelous-side-sishes-cream-spinach.jpg",
+          "thumbPath": "/images/thumb/marvelous-side-sishes-cream-spinach.webp",
+          "bigPath": "/images/big/marvelous-side-sishes-cream-spinach.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SIDE SISHES",
+          "properties": "",
+          "name": "Mashed Potato",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1rN3XrlPy3GqpIySivimH_w6ycKN41rZ1/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1rN3XrlPy3GqpIySivimH_w6ycKN41rZ1",
+          "originPath": "images/marvelous-side-sishes-mashed-potato.jpg",
+          "thumbPath": "/images/thumb/marvelous-side-sishes-mashed-potato.webp",
+          "bigPath": "/images/big/marvelous-side-sishes-mashed-potato.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SIDE SISHES",
+          "properties": "",
+          "name": "Sauteed Vegetable",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1zHFlW6fYbCIs2WaXPiIpGPHHijAR0J2_/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1zHFlW6fYbCIs2WaXPiIpGPHHijAR0J2_",
+          "originPath": "images/marvelous-side-sishes-sauteed-vegetable.jpg",
+          "thumbPath": "/images/thumb/marvelous-side-sishes-sauteed-vegetable.webp",
+          "bigPath": "/images/big/marvelous-side-sishes-sauteed-vegetable.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SIDE SISHES",
+          "properties": "",
+          "name": "Sauteed Mushroom",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "SNACK": [
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "Snack Combo With Tar-tar & Spicy Mayonnaise",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15AbTRiMMU6jpQmk48fcET2dWMUUpZdJK/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15AbTRiMMU6jpQmk48fcET2dWMUUpZdJK",
+          "originPath": "images/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.webp",
+          "bigPath": "/images/big/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "Fried Crispy Mushroom With Tar-tar & Spicy Mayonnaise",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15KTRq9_EXfUMPPtNMbN9xQgoh5P8J3_N/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15KTRq9_EXfUMPPtNMbN9xQgoh5P8J3_N",
+          "originPath": "images/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.webp",
+          "bigPath": "/images/big/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "Fried Onion Ring With Spicy Mayonnaise",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HGxzwFQDE7KkX4-usOehyrcilp_2CsAm/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HGxzwFQDE7KkX4-usOehyrcilp_2CsAm",
+          "originPath": "images/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.webp",
+          "bigPath": "/images/big/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "Chicken Nugget",
+          "description": "With French Fries or Wedges With Spicy Mayonnaise & Tomato Ketchup",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HSxnzpGMoFhTK28nNvlbQwZFp9Qb8mqa/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HSxnzpGMoFhTK28nNvlbQwZFp9Qb8mqa",
+          "originPath": "images/marvelous-snack-chicken-nugget.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-chicken-nugget.webp",
+          "bigPath": "/images/big/marvelous-snack-chicken-nugget.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "French Fries",
+          "description": "With Spicy Mayonnaise & Tomato Ketchup",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HSuR3QJx8vF0pCPyyRAz4idhLkwTIQT7/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HSuR3QJx8vF0pCPyyRAz4idhLkwTIQT7",
+          "originPath": "images/marvelous-snack-french-fries.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-french-fries.webp",
+          "bigPath": "/images/big/marvelous-snack-french-fries.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Marvelous",
+          "category": "SNACK",
+          "properties": "",
+          "name": "Potato Wedges",
+          "description": "With Spicy Mayonnaise & Tomato Ketchup",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HC1p4yqPhr8AHbSQAgd4vyRLy4ByU39H/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HC1p4yqPhr8AHbSQAgd4vyRLy4ByU39H",
+          "originPath": "images/marvelous-snack-potato-wedges.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-potato-wedges.webp",
+          "bigPath": "/images/big/marvelous-snack-potato-wedges.webp"
+        }
+      ]
+    },
+    "categories": [
+      "Pasta",
+      "Soup",
+      "CHICKEN",
+      "SIDE SISHES",
+      "SNACK"
+    ]
+  },
+  {
+    "id": "omnomnom",
+    "name": "Om Nom Nom",
+    "icon": "/icons/omnomnom.svg",
+    "menu": {
+      "Appetizer": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Vegetable Samosa",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1emLV8GPUrkJoNxrQEY0Mts_F3oDZvhCQ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1emLV8GPUrkJoNxrQEY0Mts_F3oDZvhCQ",
+          "originPath": "images/om-nom-nom-appetizer-vegetable-samosa.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-appetizer-vegetable-samosa.webp",
+          "bigPath": "/images/big/om-nom-nom-appetizer-vegetable-samosa.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Mutton Kebab Madras",
+          "description": "",
+          "price": {
+            "value": 70000,
+            "formatted": "IDR 70.000",
+            "string": "IDR 70.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1H7TvEuVuXc5KEzxnXuDW6RSjSvJdQZDl/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1H7TvEuVuXc5KEzxnXuDW6RSjSvJdQZDl",
+          "originPath": "images/om-nom-nom-appetizer-mutton-kebab-madras.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-appetizer-mutton-kebab-madras.webp",
+          "bigPath": "/images/big/om-nom-nom-appetizer-mutton-kebab-madras.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Tandoori Pompret",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/12SGReCMq1mqmOervbMqiYqTxydmsavuh/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=12SGReCMq1mqmOervbMqiYqTxydmsavuh",
+          "originPath": "images/om-nom-nom-appetizer-tandoori-pompret.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-appetizer-tandoori-pompret.webp",
+          "bigPath": "/images/big/om-nom-nom-appetizer-tandoori-pompret.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Fish Curry Pompret",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/12BLfMlZK4Q0xAzd4RlZIVR5Qj-xGAiQA/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=12BLfMlZK4Q0xAzd4RlZIVR5Qj-xGAiQA",
+          "originPath": "images/om-nom-nom-appetizer-fish-curry-pompret.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-appetizer-fish-curry-pompret.webp",
+          "bigPath": "/images/big/om-nom-nom-appetizer-fish-curry-pompret.webp"
+        }
+      ],
+      "Breakfast": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breakfast",
+          "properties": "",
+          "name": "Omlet Sandwich",
+          "description": "",
+          "price": {
+            "value": 37500,
+            "formatted": "IDR 37.500",
+            "string": "IDR 37.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/1H3oqFk6xNO9e4Nx7mZK0Gn_6UPyzoz9u/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1H3oqFk6xNO9e4Nx7mZK0Gn_6UPyzoz9u",
+          "originPath": "images/om-nom-nom-breakfast-omlet-sandwich.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-breakfast-omlet-sandwich.webp",
+          "bigPath": "/images/big/om-nom-nom-breakfast-omlet-sandwich.webp"
+        }
+      ],
+      "Main Course": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Butter Chicken",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1gwtCiMFU5dgGY9k5VSY8WtAdIrKrL7cI/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1gwtCiMFU5dgGY9k5VSY8WtAdIrKrL7cI",
+          "originPath": "images/om-nom-nom-main-course-butter-chicken.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-butter-chicken.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-butter-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Biryani",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1fOSrjCUpInW-h-Y3e9tEunRWkDNnL0eI/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1fOSrjCUpInW-h-Y3e9tEunRWkDNnL0eI",
+          "originPath": "images/om-nom-nom-main-course-chicken-biryani.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-chicken-biryani.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-chicken-biryani.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Tikka Masalah",
+          "description": "",
+          "price": {
+            "value": 43000,
+            "formatted": "IDR 43.000",
+            "string": "IDR 43.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1h5KMcBFXdMrwZ4ph0gH1qdE9YnYkrM9V/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1h5KMcBFXdMrwZ4ph0gH1qdE9YnYkrM9V",
+          "originPath": "images/om-nom-nom-main-course-chicken-tikka-masalah.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-chicken-tikka-masalah.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-chicken-tikka-masalah.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Tikka",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/10z77XgBD0iengzVbeHHPJ_qmy7ju8Ex1/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=10z77XgBD0iengzVbeHHPJ_qmy7ju8Ex1",
+          "originPath": "images/om-nom-nom-main-course-chicken-tikka.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-chicken-tikka.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-chicken-tikka.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Mutton rogan Josh",
+          "description": "",
+          "price": {
+            "value": 53000,
+            "formatted": "IDR 53.000",
+            "string": "IDR 53.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1glcBZYc8vSap5uLpXB6-b0HC7PP4NO18/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1glcBZYc8vSap5uLpXB6-b0HC7PP4NO18",
+          "originPath": "images/om-nom-nom-main-course-mutton-rogan-josh.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-mutton-rogan-josh.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-mutton-rogan-josh.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Mutton masalah",
+          "description": "",
+          "price": {
+            "value": 65000,
+            "formatted": "IDR 65.000",
+            "string": "IDR 65.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Pulao Rice",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1-GtVg_cY_emNV1sU5OeKF4nkjTuNrJ_5/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1-GtVg_cY_emNV1sU5OeKF4nkjTuNrJ_5",
+          "originPath": "images/om-nom-nom-main-course-pulao-rice.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-pulao-rice.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-pulao-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Tandori Chicken",
+          "description": "",
+          "price": {
+            "value": 42500,
+            "formatted": "IDR 42.500",
+            "string": "IDR 42.500"
+          },
+          "originalImage": "https://drive.google.com/file/d/10zwJFKmHe3W9MltJLPHjF1ELLYNnGM07/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=10zwJFKmHe3W9MltJLPHjF1ELLYNnGM07",
+          "originPath": "images/om-nom-nom-main-course-tandori-chicken.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-tandori-chicken.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-tandori-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Roti Chanai With Chicken Curry √",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1eck_ExPgx6JEAb59Sra2v6FFfzTsC5t5/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1eck_ExPgx6JEAb59Sra2v6FFfzTsC5t5",
+          "originPath": "images/om-nom-nom-main-course-roti-chanai-with-chicken-curry.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-main-course-roti-chanai-with-chicken-curry.webp",
+          "bigPath": "/images/big/om-nom-nom-main-course-roti-chanai-with-chicken-curry.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Mutton Biryani",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Kotthu",
+          "description": "",
+          "price": {
+            "value": 70000,
+            "formatted": "IDR 70.000",
+            "string": "IDR 70.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Kotthu With Cheese",
+          "description": "",
+          "price": {
+            "value": 75000,
+            "formatted": "IDR 75.000",
+            "string": "IDR 75.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Kathi Roll",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chole Bhature",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Breads": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "",
+          "name": "Plain Naan",
+          "description": "",
+          "price": {
+            "value": 12000,
+            "formatted": "IDR 12.000",
+            "string": "IDR 12.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "",
+          "name": "Butter Naan",
+          "description": "",
+          "price": {
+            "value": 14000,
+            "formatted": "IDR 14.000",
+            "string": "IDR 14.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "",
+          "name": "Garlic Naan",
+          "description": "",
+          "price": {
+            "value": 16000,
+            "formatted": "IDR 16.000",
+            "string": "IDR 16.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "",
+          "name": "Cheese Naan",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "",
+          "name": "Tandoori Roti",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "noprice",
+          "name": "Chpati",
+          "description": "",
+          "price": null,
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Breads",
+          "properties": "noprice",
+          "name": "Lacha Pharata",
+          "description": "",
+          "price": null,
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Rekomendasi Minuman": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Rekomendasi Minuman",
+          "properties": "",
+          "name": "Lessy pinnaple √",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1h5mD-X0ys6FZvjU1vIevXuH9r3zzuhk_/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1h5mD-X0ys6FZvjU1vIevXuH9r3zzuhk_",
+          "originPath": "images/om-nom-nom-rekomendasi-minuman-lessy-pinnaple.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-rekomendasi-minuman-lessy-pinnaple.webp",
+          "bigPath": "/images/big/om-nom-nom-rekomendasi-minuman-lessy-pinnaple.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "Rekomendasi Minuman",
+          "properties": "",
+          "name": "Masala Tea √",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1gidMNm9SFuI8v1WwPx9WlKLe2WxUffIx/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1gidMNm9SFuI8v1WwPx9WlKLe2WxUffIx",
+          "originPath": "images/om-nom-nom-rekomendasi-minuman-masala-tea.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-rekomendasi-minuman-masala-tea.webp",
+          "bigPath": "/images/big/om-nom-nom-rekomendasi-minuman-masala-tea.webp"
+        }
+      ],
+      "nocat": [
+        {
+          "type": "item",
+          "resto": "Om Nom Nom",
+          "category": "nocat",
+          "properties": "",
+          "name": "Safron rasmalai",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/12OI5f-wNIgKM8-aDEntRQcbWyw066GsF/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=12OI5f-wNIgKM8-aDEntRQcbWyw066GsF",
+          "originPath": "images/om-nom-nom-nocat-safron-rasmalai.jpg",
+          "thumbPath": "/images/thumb/om-nom-nom-nocat-safron-rasmalai.webp",
+          "bigPath": "/images/big/om-nom-nom-nocat-safron-rasmalai.webp"
+        }
+      ]
+    },
+    "categories": [
+      "Appetizer",
+      "Breakfast",
+      "Main Course",
+      "Breads",
+      "Rekomendasi Minuman",
+      "nocat"
+    ]
+  },
+  {
+    "id": "almeeraj",
+    "name": "Al-Meeraj",
+    "icon": "/icons/almeeray.svg",
+    "menu": {
+      "Appetizer": [
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Spring Roll",
+          "description": "",
+          "price": {
+            "value": 28000,
+            "formatted": "IDR 28.000",
+            "string": "IDR 28.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Chicken Tasauk",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Beef Tasauk",
+          "description": "",
+          "price": {
+            "value": 65000,
+            "formatted": "IDR 65.000",
+            "string": "IDR 65.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Lamb Kebab",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Chicken Kebab",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Chicken Rollade With Manchurian Sauce",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ohkdQkoObAe38MS_vBidVB-c7T0i4FXJ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ohkdQkoObAe38MS_vBidVB-c7T0i4FXJ",
+          "originPath": "images/al-meeraj-appetizer-chicken-rollade-with-manchurian-sauce.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-appetizer-chicken-rollade-with-manchurian-sauce.webp",
+          "bigPath": "/images/big/al-meeraj-appetizer-chicken-rollade-with-manchurian-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Muttabaq Lamb With Curry",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ooytcS3UQFbMEZudJunJxEyuGK3S23sh/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ooytcS3UQFbMEZudJunJxEyuGK3S23sh",
+          "originPath": "images/al-meeraj-appetizer-muttabaq-lamb-with-curry.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-appetizer-muttabaq-lamb-with-curry.webp",
+          "bigPath": "/images/big/al-meeraj-appetizer-muttabaq-lamb-with-curry.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Muttabaq Chicken With Curry",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Main Course": [
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Kebuli Rice",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1f9ZnKIg-cd4Or3yB9txfxUfjlc9Lp_fx/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1f9ZnKIg-cd4Or3yB9txfxUfjlc9Lp_fx",
+          "originPath": "images/al-meeraj-main-course-chicken-kebuli-rice.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-chicken-kebuli-rice.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-chicken-kebuli-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Mandhi Rice",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1fLjUORTKk2Ggksf2vPq8VJ1Wj7Myj8lT/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1fLjUORTKk2Ggksf2vPq8VJ1Wj7Myj8lT",
+          "originPath": "images/al-meeraj-main-course-chicken-mandhi-rice.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-chicken-mandhi-rice.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-chicken-mandhi-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Biryani Chicken",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1h5ZTQWmQX2jITowj5uJs3-hkcR72maAP/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1h5ZTQWmQX2jITowj5uJs3-hkcR72maAP",
+          "originPath": "images/al-meeraj-main-course-biryani-chicken.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-biryani-chicken.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-biryani-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Lamb Mandhi Rice",
+          "description": "",
+          "price": {
+            "value": 65000,
+            "formatted": "IDR 65.000",
+            "string": "IDR 65.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1fU67p1ia5vhuk9kyElTdkp-SkICYRlFY/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1fU67p1ia5vhuk9kyElTdkp-SkICYRlFY",
+          "originPath": "images/al-meeraj-main-course-lamb-mandhi-rice.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-lamb-mandhi-rice.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-lamb-mandhi-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Lamb Kebuli Rice",
+          "description": "",
+          "price": {
+            "value": 65000,
+            "formatted": "IDR 65.000",
+            "string": "IDR 65.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "1/4 Tandoori Chicken Mandhi Rice",
+          "description": "",
+          "price": {
+            "value": 55000,
+            "formatted": "IDR 55.000",
+            "string": "IDR 55.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HpTn73NhP-S6FEFJqMZQCQK28VYhZb_J/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HpTn73NhP-S6FEFJqMZQCQK28VYhZb_J",
+          "originPath": "images/al-meeraj-main-course-1-4-tandoori-chicken-mandhi-rice.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-1-4-tandoori-chicken-mandhi-rice.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-1-4-tandoori-chicken-mandhi-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Fish Masalah",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Fish Curry Dory",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/12BLfMlZK4Q0xAzd4RlZIVR5Qj-xGAiQA/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=12BLfMlZK4Q0xAzd4RlZIVR5Qj-xGAiQA",
+          "originPath": "images/al-meeraj-main-course-fish-curry-dory.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-fish-curry-dory.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-fish-curry-dory.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Samak Curry",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/14QhGUimXs1GUPorXmiEYjze5UAaTlIGs/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=14QhGUimXs1GUPorXmiEYjze5UAaTlIGs",
+          "originPath": "images/al-meeraj-main-course-samak-curry.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-samak-curry.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-samak-curry.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Yellow Dal",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Chicken Kebuli Rice Set",
+          "description": "",
+          "price": {
+            "value": 60000,
+            "formatted": "IDR 60.000",
+            "string": "IDR 60.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1eyFrB4KkbNb0QjsY06Mq4sarC6o5iX7R/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1eyFrB4KkbNb0QjsY06Mq4sarC6o5iX7R",
+          "originPath": "images/al-meeraj-main-course-chicken-kebuli-rice-set.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-chicken-kebuli-rice-set.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-chicken-kebuli-rice-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Lamb Mandhi Rice Set",
+          "description": "",
+          "price": {
+            "value": 70000,
+            "formatted": "IDR 70.000",
+            "string": "IDR 70.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1fU67p1ia5vhuk9kyElTdkp-SkICYRlFY/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1fU67p1ia5vhuk9kyElTdkp-SkICYRlFY",
+          "originPath": "images/al-meeraj-main-course-lamb-mandhi-rice-set.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-main-course-lamb-mandhi-rice-set.webp",
+          "bigPath": "/images/big/al-meeraj-main-course-lamb-mandhi-rice-set.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Main Course",
+          "properties": "",
+          "name": "Lamb Kebuli Rice Set",
+          "description": "",
+          "price": {
+            "value": 70000,
+            "formatted": "IDR 70.000",
+            "string": "IDR 70.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Roti": [
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Roti",
+          "properties": "",
+          "name": "Malabar Paratha",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1eck_ExPgx6JEAb59Sra2v6FFfzTsC5t5/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1eck_ExPgx6JEAb59Sra2v6FFfzTsC5t5",
+          "originPath": "images/al-meeraj-roti-malabar-paratha.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-roti-malabar-paratha.webp",
+          "bigPath": "/images/big/al-meeraj-roti-malabar-paratha.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Roti",
+          "properties": "",
+          "name": "Potato Kulcha",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HXC6UfWDF9JF5le02Z3Gb_LVoeG4ORfy/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HXC6UfWDF9JF5le02Z3Gb_LVoeG4ORfy",
+          "originPath": "images/al-meeraj-roti-potato-kulcha.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-roti-potato-kulcha.webp",
+          "bigPath": "/images/big/al-meeraj-roti-potato-kulcha.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Roti",
+          "properties": "",
+          "name": "Keema Kulcha",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1HYLH_UJXLsNuJAnNggP6gwYV_AB0S4hT/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1HYLH_UJXLsNuJAnNggP6gwYV_AB0S4hT",
+          "originPath": "images/al-meeraj-roti-keema-kulcha.jpg",
+          "thumbPath": "/images/thumb/al-meeraj-roti-keema-kulcha.webp",
+          "bigPath": "/images/big/al-meeraj-roti-keema-kulcha.webp"
+        }
+      ],
+      "Rekomendasi Minuman": [
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Rekomendasi Minuman",
+          "properties": "",
+          "name": "Es cream palooda",
+          "description": "",
+          "price": {
+            "value": 30000,
+            "formatted": "IDR 30.000",
+            "string": "IDR 30.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Dessert": [
+        {
+          "type": "item",
+          "resto": "Al-Meeraj",
+          "category": "Dessert",
+          "properties": "",
+          "name": "Kurma Sahi",
+          "description": "",
+          "price": {
+            "value": 35000,
+            "formatted": "IDR 35.000",
+            "string": "IDR 35.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ]
+    },
+    "categories": [
+      "Appetizer",
+      "Main Course",
+      "Roti",
+      "Rekomendasi Minuman",
+      "Dessert"
+    ]
+  },
+  {
+    "id": "tacie",
+    "name": "Ta Cie",
+    "icon": "/icons/tacie.svg",
+    "menu": {
+      "Appetizer": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Pangsit Goreng",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Appetizer",
+          "properties": "",
+          "name": "Tahu pedas",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Chicken Rice Box": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Chicken Black pepper Suce",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jBKRxw__vQQe3j3yC0yqXqxEQ3xMujG0/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jBKRxw__vQQe3j3yC0yqXqxEQ3xMujG0",
+          "originPath": "images/ta-cie-chicken-rice-box-chicken-black-pepper-suce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-chicken-black-pepper-suce.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-chicken-black-pepper-suce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Sweet and Sour Sauce Chicken",
+          "description": "",
+          "price": {
+            "value": 43000,
+            "formatted": "IDR 43.000",
+            "string": "IDR 43.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iTfPEA1EKiRzjBHdd0oIn1DFf_u21Gr7/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iTfPEA1EKiRzjBHdd0oIn1DFf_u21Gr7",
+          "originPath": "images/ta-cie-chicken-rice-box-sweet-and-sour-sauce-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-sweet-and-sour-sauce-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-sweet-and-sour-sauce-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Margarine Chicken",
+          "description": "",
+          "price": {
+            "value": 44000,
+            "formatted": "IDR 44.000",
+            "string": "IDR 44.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iZkeqPaGGzvIKg2czacEPCGJgGqVvC38/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iZkeqPaGGzvIKg2czacEPCGJgGqVvC38",
+          "originPath": "images/ta-cie-chicken-rice-box-margarine-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-margarine-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-margarine-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Kungpao Chicken",
+          "description": "",
+          "price": {
+            "value": 44000,
+            "formatted": "IDR 44.000",
+            "string": "IDR 44.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iZG995-NuyqNYNqKhYpAtKpb-5t9eMbN/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iZG995-NuyqNYNqKhYpAtKpb-5t9eMbN",
+          "originPath": "images/ta-cie-chicken-rice-box-kungpao-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-kungpao-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-kungpao-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Mala Chicken",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1j_dNsBcB81QWteKSbjs9WZjJwNDrE9Ra/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1j_dNsBcB81QWteKSbjs9WZjJwNDrE9Ra",
+          "originPath": "images/ta-cie-chicken-rice-box-mala-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-mala-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-mala-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Manggo Chicken",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iyJljnRvTwFbpovfI2sHCjT2IMMci7AH/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iyJljnRvTwFbpovfI2sHCjT2IMMci7AH",
+          "originPath": "images/ta-cie-chicken-rice-box-manggo-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-manggo-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-manggo-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Rice Box",
+          "properties": "",
+          "name": "Nasi Hainan Chicken Set",
+          "description": "",
+          "price": {
+            "value": 70000,
+            "formatted": "IDR 70.000",
+            "string": "IDR 70.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1INL9YJNUJBNf8cmtKArW4vI0bt67CR2n/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1INL9YJNUJBNf8cmtKArW4vI0bt67CR2n",
+          "originPath": "images/ta-cie-chicken-rice-box-nasi-hainan-chicken-set.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-rice-box-nasi-hainan-chicken-set.webp",
+          "bigPath": "/images/big/ta-cie-chicken-rice-box-nasi-hainan-chicken-set.webp"
+        }
+      ],
+      "Beef Rice Box": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Beef Black Pepper Sauce",
+          "description": "",
+          "price": {
+            "value": 50000,
+            "formatted": "IDR 50.000",
+            "string": "IDR 50.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ji65KMg0KzeskeC12LB1ei2v_oItJ79Q/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ji65KMg0KzeskeC12LB1ei2v_oItJ79Q",
+          "originPath": "images/ta-cie-beef-rice-box-beef-black-pepper-sauce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-beef-black-pepper-sauce.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-beef-black-pepper-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Beef Sweet and Sour Sauce",
+          "description": "",
+          "price": {
+            "value": 47000,
+            "formatted": "IDR 47.000",
+            "string": "IDR 47.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1kq71Q36tL890k2enquiLAZofZb-kEIxw/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1kq71Q36tL890k2enquiLAZofZb-kEIxw",
+          "originPath": "images/ta-cie-beef-rice-box-beef-sweet-and-sour-sauce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-beef-sweet-and-sour-sauce.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-beef-sweet-and-sour-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Margarine Beef",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iZkeqPaGGzvIKg2czacEPCGJgGqVvC38/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iZkeqPaGGzvIKg2czacEPCGJgGqVvC38",
+          "originPath": "images/ta-cie-beef-rice-box-margarine-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-margarine-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-margarine-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Kungpao Beef",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jOQGqzUoonyMoyLYussd98YN-KtBa_Z-/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jOQGqzUoonyMoyLYussd98YN-KtBa_Z-",
+          "originPath": "images/ta-cie-beef-rice-box-kungpao-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-kungpao-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-kungpao-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Mala Beef",
+          "description": "",
+          "price": {
+            "value": 49000,
+            "formatted": "IDR 49.000",
+            "string": "IDR 49.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1igMFbLHnAf7ng41K3Vz2wYJxRfn599yt/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1igMFbLHnAf7ng41K3Vz2wYJxRfn599yt",
+          "originPath": "images/ta-cie-beef-rice-box-mala-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-mala-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-mala-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Rice Box",
+          "properties": "",
+          "name": "Manggo Beef",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jJHTssj_bifzQ-xP4ic0C9tL9Vl4Ui7N/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jJHTssj_bifzQ-xP4ic0C9tL9Vl4Ui7N",
+          "originPath": "images/ta-cie-beef-rice-box-manggo-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-rice-box-manggo-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-rice-box-manggo-beef.webp"
+        }
+      ],
+      "Kwetiaw": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Kwetiaw",
+          "properties": "",
+          "name": "Beef Kwetiaw",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1k1osN_DaM9OzW-hex7W6Trtk24htueG6/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1k1osN_DaM9OzW-hex7W6Trtk24htueG6",
+          "originPath": "images/ta-cie-kwetiaw-beef-kwetiaw.jpg",
+          "thumbPath": "/images/thumb/ta-cie-kwetiaw-beef-kwetiaw.webp",
+          "bigPath": "/images/big/ta-cie-kwetiaw-beef-kwetiaw.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Kwetiaw",
+          "properties": "",
+          "name": "Checken Kwetiaw",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1k6Ud8-B79cyBm-7qH_69HmJhtsj4arhZ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1k6Ud8-B79cyBm-7qH_69HmJhtsj4arhZ",
+          "originPath": "images/ta-cie-kwetiaw-checken-kwetiaw.jpg",
+          "thumbPath": "/images/thumb/ta-cie-kwetiaw-checken-kwetiaw.webp",
+          "bigPath": "/images/big/ta-cie-kwetiaw-checken-kwetiaw.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Kwetiaw",
+          "properties": "",
+          "name": "Kwetiaw Siram Sapi",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Kwetiaw",
+          "properties": "",
+          "name": "Kwetiaw Siram Ayam",
+          "description": "",
+          "price": {
+            "value": 39000,
+            "formatted": "IDR 39.000",
+            "string": "IDR 39.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Noodles": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Beef Noodles",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jk7bgnwv4oqdmgxwY2xcps7YZb03GYG0/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jk7bgnwv4oqdmgxwY2xcps7YZb03GYG0",
+          "originPath": "images/ta-cie-noodles-beef-noodles.jpg",
+          "thumbPath": "/images/thumb/ta-cie-noodles-beef-noodles.webp",
+          "bigPath": "/images/big/ta-cie-noodles-beef-noodles.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Chicken Noodles",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1kA7BqnkxzkExGXPFoIPjlDBbQebcc1Gk/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1kA7BqnkxzkExGXPFoIPjlDBbQebcc1Gk",
+          "originPath": "images/ta-cie-noodles-chicken-noodles.jpg",
+          "thumbPath": "/images/thumb/ta-cie-noodles-chicken-noodles.webp",
+          "bigPath": "/images/big/ta-cie-noodles-chicken-noodles.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Bakmie Special",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Mie Goreng Seafood",
+          "description": "",
+          "price": {
+            "value": 40000,
+            "formatted": "IDR 40.000",
+            "string": "IDR 40.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Mie Goreng Ayam",
+          "description": "",
+          "price": {
+            "value": 38000,
+            "formatted": "IDR 38.000",
+            "string": "IDR 38.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Ifumie",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Noodles",
+          "properties": "",
+          "name": "Bakmie Kuah",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Fried Rice": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Fried Rice",
+          "properties": "",
+          "name": "Tomyam Fried Rice",
+          "description": "",
+          "price": {
+            "value": 39000,
+            "formatted": "IDR 39.000",
+            "string": "IDR 39.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jvOBN41jnyIUC2zJpRRQrTZMl_pp_4V5/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jvOBN41jnyIUC2zJpRRQrTZMl_pp_4V5",
+          "originPath": "images/ta-cie-fried-rice-tomyam-fried-rice.jpg",
+          "thumbPath": "/images/thumb/ta-cie-fried-rice-tomyam-fried-rice.webp",
+          "bigPath": "/images/big/ta-cie-fried-rice-tomyam-fried-rice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Fried Rice",
+          "properties": "",
+          "name": "Balacan Fried Rice",
+          "description": "",
+          "price": {
+            "value": 39000,
+            "formatted": "IDR 39.000",
+            "string": "IDR 39.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1kBBWK4ciJU-1-4CXWXcHDr_ZJSLgJbCQ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1kBBWK4ciJU-1-4CXWXcHDr_ZJSLgJbCQ",
+          "originPath": "images/ta-cie-fried-rice-balacan-fried-rice.jpg",
+          "thumbPath": "/images/thumb/ta-cie-fried-rice-balacan-fried-rice.webp",
+          "bigPath": "/images/big/ta-cie-fried-rice-balacan-fried-rice.webp"
+        }
+      ],
+      "Tomyam": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Tomyam",
+          "properties": "",
+          "name": "Tomyam Soup",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jkLmI7n5gLoO4o0Em2ShYK-n6gFaLEq1/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jkLmI7n5gLoO4o0Em2ShYK-n6gFaLEq1",
+          "originPath": "images/ta-cie-tomyam-tomyam-soup.jpg",
+          "thumbPath": "/images/thumb/ta-cie-tomyam-tomyam-soup.webp",
+          "bigPath": "/images/big/ta-cie-tomyam-tomyam-soup.webp"
+        }
+      ],
+      "Chicken Alacarte": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Chicken Black pepper Suce",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jA69qRuBKNw4WB3Y1kBkxDntwH6H2DR1/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jA69qRuBKNw4WB3Y1kBkxDntwH6H2DR1",
+          "originPath": "images/ta-cie-chicken-alacarte-chicken-black-pepper-suce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-chicken-black-pepper-suce.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-chicken-black-pepper-suce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Sweet and Sour Sauce Chicken",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iTsqyaTygBcvmtGBE8Dj_qGZR9OxtQDr/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iTsqyaTygBcvmtGBE8Dj_qGZR9OxtQDr",
+          "originPath": "images/ta-cie-chicken-alacarte-sweet-and-sour-sauce-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-sweet-and-sour-sauce-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-sweet-and-sour-sauce-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Margarine Chicken",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ibZvwF-MMtf4TxhuUSP4Yb8U1Dk-e1Bd/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ibZvwF-MMtf4TxhuUSP4Yb8U1Dk-e1Bd",
+          "originPath": "images/ta-cie-chicken-alacarte-margarine-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-margarine-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-margarine-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Kungpao Chicken",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iYrTZpXBDlcERoKvt9hhXTXwVV_1SFcq/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iYrTZpXBDlcERoKvt9hhXTXwVV_1SFcq",
+          "originPath": "images/ta-cie-chicken-alacarte-kungpao-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-kungpao-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-kungpao-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Mala Chicken",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jVgZLy2S2Kn2EOptUOFpk1BkM3b9Rejp/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jVgZLy2S2Kn2EOptUOFpk1BkM3b9Rejp",
+          "originPath": "images/ta-cie-chicken-alacarte-mala-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-mala-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-mala-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Manggo Chicken",
+          "description": "",
+          "price": {
+            "value": 41000,
+            "formatted": "IDR 41.000",
+            "string": "IDR 41.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iuwaSc4L7c2zs8inxTgLl1D_eG8svsuB/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iuwaSc4L7c2zs8inxTgLl1D_eG8svsuB",
+          "originPath": "images/ta-cie-chicken-alacarte-manggo-chicken.jpg",
+          "thumbPath": "/images/thumb/ta-cie-chicken-alacarte-manggo-chicken.webp",
+          "bigPath": "/images/big/ta-cie-chicken-alacarte-manggo-chicken.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Chicken Alacarte",
+          "properties": "",
+          "name": "Capcay",
+          "description": "",
+          "price": {
+            "value": 42000,
+            "formatted": "IDR 42.000",
+            "string": "IDR 42.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Beef Alacarte": [
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Beef Black Pepper Sauce",
+          "description": "",
+          "price": {
+            "value": 47000,
+            "formatted": "IDR 47.000",
+            "string": "IDR 47.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1iHVPqDwoQmGxS4vBlO8uwUPzcrxdlAT0/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1iHVPqDwoQmGxS4vBlO8uwUPzcrxdlAT0",
+          "originPath": "images/ta-cie-beef-alacarte-beef-black-pepper-sauce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-beef-black-pepper-sauce.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-beef-black-pepper-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Beef Sweet and Sour Sauce",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jCsBglXU4De1fMthAMoiotWnwWYaazlQ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jCsBglXU4De1fMthAMoiotWnwWYaazlQ",
+          "originPath": "images/ta-cie-beef-alacarte-beef-sweet-and-sour-sauce.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-beef-sweet-and-sour-sauce.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-beef-sweet-and-sour-sauce.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Margarine Beef",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1l84SXdzdugM7qTgRwYqsWc1U8gFUtBok/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1l84SXdzdugM7qTgRwYqsWc1U8gFUtBok",
+          "originPath": "images/ta-cie-beef-alacarte-margarine-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-margarine-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-margarine-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Kungpao Beef",
+          "description": "",
+          "price": {
+            "value": 45000,
+            "formatted": "IDR 45.000",
+            "string": "IDR 45.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jL17T1D0RscTf1bH1YvKmmvssL8auxe3/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jL17T1D0RscTf1bH1YvKmmvssL8auxe3",
+          "originPath": "images/ta-cie-beef-alacarte-kungpao-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-kungpao-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-kungpao-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Mala Beef",
+          "description": "",
+          "price": {
+            "value": 47000,
+            "formatted": "IDR 47.000",
+            "string": "IDR 47.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1ifIvsFETYulOT-84yDIAmi2g1K95y3Yf/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1ifIvsFETYulOT-84yDIAmi2g1K95y3Yf",
+          "originPath": "images/ta-cie-beef-alacarte-mala-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-mala-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-mala-beef.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Ta Cie",
+          "category": "Beef Alacarte",
+          "properties": "",
+          "name": "Manggo Beef",
+          "description": "",
+          "price": {
+            "value": 48000,
+            "formatted": "IDR 48.000",
+            "string": "IDR 48.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1jIWyU3U-_ko8r4DjLUdzlUFHsBzcHrEs/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1jIWyU3U-_ko8r4DjLUdzlUFHsBzcHrEs",
+          "originPath": "images/ta-cie-beef-alacarte-manggo-beef.jpg",
+          "thumbPath": "/images/thumb/ta-cie-beef-alacarte-manggo-beef.webp",
+          "bigPath": "/images/big/ta-cie-beef-alacarte-manggo-beef.webp"
+        }
+      ]
+    },
+    "categories": [
+      "Appetizer",
+      "Chicken Rice Box",
+      "Beef Rice Box",
+      "Kwetiaw",
+      "Noodles",
+      "Fried Rice",
+      "Tomyam",
+      "Chicken Alacarte",
+      "Beef Alacarte"
+    ]
+  },
+  {
+    "id": "under3",
+    "name": "Under 3 Cafe",
+    "icon": "/icons/underthe3.svg",
+    "menu": {
+      "Tea": [
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Tea",
+          "properties": "multiple",
+          "name": "Lemon Tea",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              10000,
+              10000
+            ],
+            "formatted": [
+              "IDR 10.000",
+              "IDR 10.000"
+            ],
+            "string": "IDR 10.000 / IDR 10.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Tea",
+          "properties": "multiple",
+          "name": "Teh Manis",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              5000,
+              7000
+            ],
+            "formatted": [
+              "IDR 5.000",
+              "IDR 7.000"
+            ],
+            "string": "IDR 5.000 / IDR 7.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1IRJ6YcGwfzTbk_Id1lCKLww5CIMSSwQP/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1IRJ6YcGwfzTbk_Id1lCKLww5CIMSSwQP",
+          "originPath": "images/under-3-cafe-tea-teh-manis.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-tea-teh-manis.webp",
+          "bigPath": "/images/big/under-3-cafe-tea-teh-manis.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Tea",
+          "properties": "multiple",
+          "name": "Teh Tawar",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              3000,
+              5000
+            ],
+            "formatted": [
+              "IDR 3.000",
+              "IDR 5.000"
+            ],
+            "string": "IDR 3.000 / IDR 5.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Tea",
+          "properties": "",
+          "name": "Liang Tea (500ml)",
+          "description": "",
+          "price": {
+            "value": 15000,
+            "formatted": "IDR 15.000",
+            "string": "IDR 15.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1lswckRDvIjWnlrkKUvAoxWCNFht9Q0Ld/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1lswckRDvIjWnlrkKUvAoxWCNFht9Q0Ld",
+          "originPath": "images/under-3-cafe-tea-liang-tea-500ml.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-tea-liang-tea-500ml.webp",
+          "bigPath": "/images/big/under-3-cafe-tea-liang-tea-500ml.webp"
+        }
+      ],
+      "Juice": [
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "multiple",
+          "name": "Calamansi Orange",
+          "description": "",
+          "price": {
+            "type": "multiple",
+            "value": [
+              20000,
+              20000
+            ],
+            "formatted": [
+              "IDR 20.000",
+              "IDR 20.000"
+            ],
+            "string": "IDR 20.000 / IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1BsJfJeMpeGCANp_K41ZmnLcZkQxM9ZlR/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1BsJfJeMpeGCANp_K41ZmnLcZkQxM9ZlR",
+          "originPath": "images/under-3-cafe-juice-calamansi-orange.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-calamansi-orange.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-calamansi-orange.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Avocado Juice",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/1DqxdXsY0i25kt1dy9MjU780lz2EB4kmv/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=1DqxdXsY0i25kt1dy9MjU780lz2EB4kmv",
+          "originPath": "images/under-3-cafe-juice-fresh-avocado-juice.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-avocado-juice.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-fresh-avocado-juice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Guava Juice",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Manggo Juice",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15osOZle7OA7b71IknzpdyDYoC3qxThkd/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15osOZle7OA7b71IknzpdyDYoC3qxThkd",
+          "originPath": "images/under-3-cafe-juice-fresh-manggo-juice.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-manggo-juice.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-fresh-manggo-juice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Melon Juice",
+          "description": "",
+          "price": {
+            "value": 17000,
+            "formatted": "IDR 17.000",
+            "string": "IDR 17.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15oZN-P3TTYHi3gXUiQnreXuJH586i5IL/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15oZN-P3TTYHi3gXUiQnreXuJH586i5IL",
+          "originPath": "images/under-3-cafe-juice-fresh-melon-juice.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-melon-juice.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-fresh-melon-juice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Orange Juice",
+          "description": "",
+          "price": {
+            "value": 25000,
+            "formatted": "IDR 25.000",
+            "string": "IDR 25.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15osOZle7OA7b71IknzpdyDYoC3qxThkd/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15osOZle7OA7b71IknzpdyDYoC3qxThkd",
+          "originPath": "images/under-3-cafe-juice-fresh-orange-juice.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-orange-juice.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-fresh-orange-juice.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Fresh Sirsak",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": "https://drive.google.com/file/d/15SL_NfKwsKhJHALHTh9bWZNivzzegYCJ/view?usp=drivesdk",
+          "imageUrl": "https://drive.google.com/uc?id=15SL_NfKwsKhJHALHTh9bWZNivzzegYCJ",
+          "originPath": "images/under-3-cafe-juice-fresh-sirsak.jpg",
+          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-sirsak.webp",
+          "bigPath": "/images/big/under-3-cafe-juice-fresh-sirsak.webp"
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Juice",
+          "properties": "",
+          "name": "Passion Fruit Juice",
+          "description": "",
+          "price": {
+            "value": 20000,
+            "formatted": "IDR 20.000",
+            "string": "IDR 20.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ],
+      "Mineral Water": [
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Mineral Water",
+          "properties": "",
+          "name": "Pristine",
+          "description": "",
+          "price": {
+            "value": 5000,
+            "formatted": "IDR 5.000",
+            "string": "IDR 5.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        },
+        {
+          "type": "item",
+          "resto": "Under 3 Cafe",
+          "category": "Mineral Water",
+          "properties": "",
+          "name": "Aqua Gelas",
+          "description": "",
+          "price": {
+            "value": 1000,
+            "formatted": "IDR 1.000",
+            "string": "IDR 1.000"
+          },
+          "originalImage": null,
+          "imageUrl": null,
+          "originPath": null,
+          "thumbPath": null,
+          "bigPath": null
+        }
+      ]
+    },
+    "categories": [
+      "Tea",
+      "Juice",
+      "Mineral Water"
+    ]
   }
 ]

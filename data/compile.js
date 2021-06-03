@@ -57,7 +57,7 @@ const data = [
   },
 
   {
-    name: "Under 3 Cafe",
+    name: "Under The 3",
     file: 'under3',
     icon: '/icons/underthe3.svg'
   },

@@ -3949,13 +3949,13 @@
   },
   {
     "id": "under3",
-    "name": "Under 3 Cafe",
+    "name": "Under The 3",
     "icon": "/icons/underthe3.svg",
     "menu": {
       "Tea": [
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Tea",
           "properties": "multiple",
           "name": "Lemon Tea",
@@ -3980,7 +3980,7 @@
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Tea",
           "properties": "multiple",
           "name": "Teh Manis",
@@ -3999,13 +3999,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/1IRJ6YcGwfzTbk_Id1lCKLww5CIMSSwQP/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1IRJ6YcGwfzTbk_Id1lCKLww5CIMSSwQP",
-          "originPath": "images/under-3-cafe-tea-teh-manis.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-tea-teh-manis.webp",
-          "bigPath": "/images/big/under-3-cafe-tea-teh-manis.webp"
+          "originPath": "images/under-the-3-tea-teh-manis.jpg",
+          "thumbPath": "/images/thumb/under-the-3-tea-teh-manis.webp",
+          "bigPath": "/images/big/under-the-3-tea-teh-manis.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Tea",
           "properties": "multiple",
           "name": "Teh Tawar",
@@ -4030,7 +4030,7 @@
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Tea",
           "properties": "",
           "name": "Liang Tea (500ml)",
@@ -4042,15 +4042,15 @@
           },
           "originalImage": "https://drive.google.com/file/d/1lswckRDvIjWnlrkKUvAoxWCNFht9Q0Ld/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1lswckRDvIjWnlrkKUvAoxWCNFht9Q0Ld",
-          "originPath": "images/under-3-cafe-tea-liang-tea-500ml.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-tea-liang-tea-500ml.webp",
-          "bigPath": "/images/big/under-3-cafe-tea-liang-tea-500ml.webp"
+          "originPath": "images/under-the-3-tea-liang-tea-500ml.jpg",
+          "thumbPath": "/images/thumb/under-the-3-tea-liang-tea-500ml.webp",
+          "bigPath": "/images/big/under-the-3-tea-liang-tea-500ml.webp"
         }
       ],
       "Juice": [
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "multiple",
           "name": "Calamansi Orange",
@@ -4069,13 +4069,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/1BsJfJeMpeGCANp_K41ZmnLcZkQxM9ZlR/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1BsJfJeMpeGCANp_K41ZmnLcZkQxM9ZlR",
-          "originPath": "images/under-3-cafe-juice-calamansi-orange.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-calamansi-orange.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-calamansi-orange.webp"
+          "originPath": "images/under-the-3-juice-calamansi-orange.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-calamansi-orange.webp",
+          "bigPath": "/images/big/under-the-3-juice-calamansi-orange.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Avocado Juice",
@@ -4087,13 +4087,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/1DqxdXsY0i25kt1dy9MjU780lz2EB4kmv/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1DqxdXsY0i25kt1dy9MjU780lz2EB4kmv",
-          "originPath": "images/under-3-cafe-juice-fresh-avocado-juice.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-avocado-juice.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-fresh-avocado-juice.webp"
+          "originPath": "images/under-the-3-juice-fresh-avocado-juice.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-fresh-avocado-juice.webp",
+          "bigPath": "/images/big/under-the-3-juice-fresh-avocado-juice.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Guava Juice",
@@ -4111,7 +4111,7 @@
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Manggo Juice",
@@ -4123,13 +4123,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/15osOZle7OA7b71IknzpdyDYoC3qxThkd/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15osOZle7OA7b71IknzpdyDYoC3qxThkd",
-          "originPath": "images/under-3-cafe-juice-fresh-manggo-juice.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-manggo-juice.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-fresh-manggo-juice.webp"
+          "originPath": "images/under-the-3-juice-fresh-manggo-juice.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-fresh-manggo-juice.webp",
+          "bigPath": "/images/big/under-the-3-juice-fresh-manggo-juice.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Melon Juice",
@@ -4141,13 +4141,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/15oZN-P3TTYHi3gXUiQnreXuJH586i5IL/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15oZN-P3TTYHi3gXUiQnreXuJH586i5IL",
-          "originPath": "images/under-3-cafe-juice-fresh-melon-juice.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-melon-juice.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-fresh-melon-juice.webp"
+          "originPath": "images/under-the-3-juice-fresh-melon-juice.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-fresh-melon-juice.webp",
+          "bigPath": "/images/big/under-the-3-juice-fresh-melon-juice.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Orange Juice",
@@ -4159,13 +4159,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/15osOZle7OA7b71IknzpdyDYoC3qxThkd/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15osOZle7OA7b71IknzpdyDYoC3qxThkd",
-          "originPath": "images/under-3-cafe-juice-fresh-orange-juice.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-orange-juice.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-fresh-orange-juice.webp"
+          "originPath": "images/under-the-3-juice-fresh-orange-juice.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-fresh-orange-juice.webp",
+          "bigPath": "/images/big/under-the-3-juice-fresh-orange-juice.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Fresh Sirsak",
@@ -4177,13 +4177,13 @@
           },
           "originalImage": "https://drive.google.com/file/d/15SL_NfKwsKhJHALHTh9bWZNivzzegYCJ/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15SL_NfKwsKhJHALHTh9bWZNivzzegYCJ",
-          "originPath": "images/under-3-cafe-juice-fresh-sirsak.jpg",
-          "thumbPath": "/images/thumb/under-3-cafe-juice-fresh-sirsak.webp",
-          "bigPath": "/images/big/under-3-cafe-juice-fresh-sirsak.webp"
+          "originPath": "images/under-the-3-juice-fresh-sirsak.jpg",
+          "thumbPath": "/images/thumb/under-the-3-juice-fresh-sirsak.webp",
+          "bigPath": "/images/big/under-the-3-juice-fresh-sirsak.webp"
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Juice",
           "properties": "",
           "name": "Passion Fruit Juice",
@@ -4203,7 +4203,7 @@
       "Mineral Water": [
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Mineral Water",
           "properties": "",
           "name": "Pristine",
@@ -4221,7 +4221,7 @@
         },
         {
           "type": "item",
-          "resto": "Under 3 Cafe",
+          "resto": "Under The 3",
           "category": "Mineral Water",
           "properties": "",
           "name": "Aqua Gelas",

@@ -51,7 +51,7 @@ function MenuAdditional({ item }){
 
 }
 
-function toMultiLIne( str ){
+function toMultiLine( str ){
 
   let multi = str.replace(/\r\n/g,'\n').replace(/\r/g,'\n').split('\n').reduce((a,b) => {
     return [
@@ -116,8 +116,8 @@ function MenuItem({ item }){
         </div>
       </div>
       <div className="item-info">
-        <p className="item-name">{toMultiLIne(name)}</p>
-        { description ? <p className="item-desc">{toMultiLIne(description)}</p> : null}
+        <p className="item-name">{toMultiLine(name)}</p>
+        { description ? <p className="item-desc">{toMultiLine(description)}</p> : null}
         { price ? <div className={`item-price ${price.type}`}><Price price={price} /></div> : null }
       </div>
     </div>

@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { capitalCase } from 'case-anything'
 import { PhotoSwipe } from 'react-photoswipe';
-
+import randomstring from 'randomstring'
 
 function Price({ price }){
 
@@ -48,6 +48,20 @@ function MenuAdditional({ item }){
     <span>{name}</span>
     { price ? <div className="item-price"><Price price={price} /></div> : null }
   </div>
+
+}
+
+function toMultiLIne( str ){
+
+  let multi = str.replace(/\r\n/g,'\n').replace(/\r/g,'\n').split('\n').reduce((a,b) => {
+    return [
+      ...a,
+      <span key={randomstring.generate()}>{b}</span>,
+      <br key={randomstring.generate()} />,
+    ]
+  },[])
+  multi.pop()
+  return multi
 
 }
 
@@ -102,8 +116,8 @@ function MenuItem({ item }){
         </div>
       </div>
       <div className="item-info">
-        <p className="item-name">{name}</p>
-        { description ? <p className="item-desc">{description}</p> : null}
+        <p className="item-name">{toMultiLIne(name)}</p>
+        { description ? <p className="item-desc">{toMultiLIne(description)}</p> : null}
         { price ? <div className={`item-price ${price.type}`}><Price price={price} /></div> : null }
       </div>
     </div>

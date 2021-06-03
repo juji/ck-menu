@@ -1474,7 +1474,7 @@
           "resto": "Torishimai",
           "category": "Dessert",
           "properties": "multiline",
-          "name": "Japanese Pancake - Banana - Strawbery",
+          "name": "Japanese Pancake\n- Banana\n- Strawbery",
           "description": "",
           "price": {
             "value": 30000,
@@ -2009,8 +2009,8 @@
           "resto": "Marvelous",
           "category": "SNACK",
           "properties": "",
-          "name": "Snack Combo With Tar-tar & Spicy Mayonnaise",
-          "description": "",
+          "name": "Snack Combo",
+          "description": "With Tar-tar & Spicy Mayonnaise",
           "price": {
             "value": 50000,
             "formatted": "IDR 50.000",
@@ -2018,17 +2018,17 @@
           },
           "originalImage": "https://drive.google.com/file/d/15AbTRiMMU6jpQmk48fcET2dWMUUpZdJK/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15AbTRiMMU6jpQmk48fcET2dWMUUpZdJK",
-          "originPath": "images/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.jpg",
-          "thumbPath": "/images/thumb/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.webp",
-          "bigPath": "/images/big/marvelous-snack-snack-combo-with-tar-tar-spicy-mayonnaise.webp"
+          "originPath": "images/marvelous-snack-snack-combo.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-snack-combo.webp",
+          "bigPath": "/images/big/marvelous-snack-snack-combo.webp"
         },
         {
           "type": "item",
           "resto": "Marvelous",
           "category": "SNACK",
           "properties": "",
-          "name": "Fried Crispy Mushroom With Tar-tar & Spicy Mayonnaise",
-          "description": "",
+          "name": "Fried Crispy Mushroom",
+          "description": "With Tar-tar & Spicy Mayonnaise",
           "price": {
             "value": 40000,
             "formatted": "IDR 40.000",
@@ -2036,17 +2036,17 @@
           },
           "originalImage": "https://drive.google.com/file/d/15KTRq9_EXfUMPPtNMbN9xQgoh5P8J3_N/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=15KTRq9_EXfUMPPtNMbN9xQgoh5P8J3_N",
-          "originPath": "images/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.jpg",
-          "thumbPath": "/images/thumb/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.webp",
-          "bigPath": "/images/big/marvelous-snack-fried-crispy-mushroom-with-tar-tar-spicy-mayonnaise.webp"
+          "originPath": "images/marvelous-snack-fried-crispy-mushroom.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-fried-crispy-mushroom.webp",
+          "bigPath": "/images/big/marvelous-snack-fried-crispy-mushroom.webp"
         },
         {
           "type": "item",
           "resto": "Marvelous",
           "category": "SNACK",
           "properties": "",
-          "name": "Fried Onion Ring With Spicy Mayonnaise",
-          "description": "",
+          "name": "Fried Onion Ring",
+          "description": "With Spicy Mayonnaise",
           "price": {
             "value": 35000,
             "formatted": "IDR 35.000",
@@ -2054,9 +2054,9 @@
           },
           "originalImage": "https://drive.google.com/file/d/1HGxzwFQDE7KkX4-usOehyrcilp_2CsAm/view?usp=drivesdk",
           "imageUrl": "https://drive.google.com/uc?id=1HGxzwFQDE7KkX4-usOehyrcilp_2CsAm",
-          "originPath": "images/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.jpg",
-          "thumbPath": "/images/thumb/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.webp",
-          "bigPath": "/images/big/marvelous-snack-fried-onion-ring-with-spicy-mayonnaise.webp"
+          "originPath": "images/marvelous-snack-fried-onion-ring.jpg",
+          "thumbPath": "/images/thumb/marvelous-snack-fried-onion-ring.webp",
+          "bigPath": "/images/big/marvelous-snack-fried-onion-ring.webp"
         },
         {
           "type": "item",
@@ -2064,7 +2064,7 @@
           "category": "SNACK",
           "properties": "",
           "name": "Chicken Nugget",
-          "description": "With French Fries or Wedges With Spicy Mayonnaise & Tomato Ketchup",
+          "description": "With French Fries or Wedges\nWith Spicy Mayonnaise & Tomato Ketchup",
           "price": {
             "value": 40000,
             "formatted": "IDR 40.000",

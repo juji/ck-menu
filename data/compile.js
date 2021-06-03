@@ -9,7 +9,6 @@ const Readline = require('./Readline')
 
 const csvOptions = {
   objectMode: true,
-  delimiter: '\t',
   headers: false,
 }
 
@@ -81,7 +80,7 @@ const read = async ({ name, file, icon }) => {
   await new Promise((r,j) => {
 
     console.log(`Reading ${name}`)
-    fs.createReadStream(path.resolve(__dirname,file+'.tsv'))
+    fs.createReadStream(path.resolve(__dirname,file+'.csv'))
       .pipe(parse( csvOptions ))
       .on('data', dat => {
 

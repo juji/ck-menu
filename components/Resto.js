@@ -123,7 +123,7 @@ function MenuItem({ item }){
 function MenuCategory({ name, menu, restoName }){
 
   return <div className="category">
-    <h3>{capitalCase(name)}</h3>
+    <h3>{name === 'nocat' ? '' : capitalCase(name)}</h3>
     { menu.map((item,idx) => {
 
       // console.log(item)
